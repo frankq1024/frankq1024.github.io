@@ -19,7 +19,7 @@
 @mixin font-face-SourceHanSerif($font-weight: normal, $font-style: normal) {
   @font-face {
     font-family: 'SourceHanSerif';
-    src: url('/assets/fonts/SourceHanSerifSC-VF.otf.woff2') format('woff2');
+    src: url('/assets/fonts/SourceHanSerif-VF.otf.woff2') format('woff2');
     font-weight: $font-weight;
     font-style: $font-style;
   }
