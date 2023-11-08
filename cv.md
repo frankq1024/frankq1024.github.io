@@ -6,7 +6,6 @@ title: CV
 > [CV PDF](/attachments/cv/cv.pdf)
 
 # Education
----
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b>Shanghai Jiao Tong University</b></p>
@@ -18,12 +17,10 @@ title: CV
 </div>
 
 # **Research Interest**
----
 
 My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I’m focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
 
 # Experience
----
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
@@ -62,7 +59,6 @@ My research interest lies in the expansive fields of systems, networking, and ma
 - CS2952 Operating System, Spring 2023
 
 # Selected Projects
----
 
 > Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
