@@ -19,12 +19,9 @@ photo: /assets/jpg/photo.jpg
 # social media links
 
 social:
-  # facebook: username
-  github: frankq1024
-  # instagram: username
   linkedin: tianyuan-qiu
-  # stackoverflow: 0000000/username
-  # twitter: username
+  github: frankq1024
+  email: frankq1024@gmail.com
 
 # build settings
 
