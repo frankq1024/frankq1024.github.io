@@ -17,7 +17,7 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div>
 
-# Research Interest
+# **Research Interest**
 ---
 
 My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I’m focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
@@ -26,12 +26,49 @@ My research interest lies in the expansive fields of systems, networking, and ma
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start">Distrubuted Systems Laboratory</p>
-  <p class="text-end">Sep. 2020 – June 2024</p>
+  <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
+  <p class="text-end">August 2023 - December 2023</p>
 </div>
 <div class="d-flex justify-content-between">
-  <p class="text-start"><em>B.S. in Computer Science and Technology (Zhiyuan Honors Program)</em></p>
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://vincen.tl/">Prof. Vincent Liu</a></em></p>
+  <p class="text-end"><em>Philadelphia, Pennsylvania, US</em></p>
+</div>
+
+- Investigated co-design of the FPGA-based SmartNIC and the host networking stack to leverage idle PCIe transactional bandwidth to mitigate host congestion and optimize tail latencies for high-level applications.
+
+<div class="d-flex justify-content-between">
+  <p class="text-start"><b><a href="https://bcmi.sjtu.edu.cn/">BCMI</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">July 2022 - July 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://www.ustcnewly.com/">Prof. Li Niu</a></em></p>
   <p class="text-end"><em>Shanghai, China</em></p>
 </div>
+
+- Proposed a deep learning network of image harmonization guided by reflectance. Designed a multi-modal reflectance generation network to produce a variety of plausible foreground reflectances, thereby enabling the generation of multiple harmonization results.
+
+<div class="d-flex justify-content-between">
+  <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">September 2021 - June 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><em>Teaching Assistant</em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
+</div>
+
+- CS1953 Programming, Fall 2021
+- CS1952 Programming Practice, Summer 2022
+- CS2951 Computer Architecture, Fall 2022
+- CS2952 Operating System, Spring 2023
+
+# Selected Projects
+---
+
+> *Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.*
+
+[**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU) | *CPU, FPGA, Verilog, RISC-V*
+
+- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in
+Verilog, tested on AX7035 Board.
 
 <!-- {% include contact.html %} -->
