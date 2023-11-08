@@ -5,13 +5,19 @@ title: Home
 
 # Tianyuan Qiu (仇天元)
 
-<div class="container" style="padding-left: 0em, padding-right: 0em, margin-top: 1em">
-    <div class="row justify-content-between">
-        <div class="col-auto">
-            Linkdein<br><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
-        </div>
+<style>
+  .no-padding-here {
+    padding: 0 !important;
+  }
+</style>
+
+<div class="container no-padding-here" style="padding-left: 0em; padding-right: 0em; margin-top: 2em">
+    <div class="row justify-content-between align-items-center no-padding-here">
         <div class="col-auto">
             Github<br><a href="https://github.com/{{ site.social.github }}">{{ site.social.github }}</a>
+        </div>
+        <div class="col-auto">
+            Linkdein<br><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
         </div>
         <div class="col-auto">
             E-mail<br><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
