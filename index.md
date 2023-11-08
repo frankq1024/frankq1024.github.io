@@ -5,8 +5,8 @@ title: Home
 
 # Tianyuan Qiu (仇天元)
 
-<div class="container">
-    <div class="row justify-content-between">
+<div class="container" style="padding-left: 0em, padding-right: 0em">
+    <div class="row justify-content-between" style="margin-top: 1em">
         <div class="col-auto">
             Linkdein<br><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
         </div>
