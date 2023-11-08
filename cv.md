@@ -9,7 +9,7 @@ title: CV
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start">Shanghai Jiao Tong University</p>
+  <p class="text-start"><b>Shanghai Jiao Tong University</b></p>
   <p class="text-end">Sep. 2020 – June 2024</p>
 </div>
 <div class="d-flex justify-content-between">
@@ -36,7 +36,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 
 - Investigated co-design of the FPGA-based SmartNIC and the host networking stack to leverage idle PCIe transactional bandwidth to mitigate host congestion and optimize tail latencies for high-level applications.
 
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-between" style="margin-top:2em">
   <p class="text-start"><b><a href="https://bcmi.sjtu.edu.cn/">BCMI</a>, Shanghai Jiao Tong University</b></p>
   <p class="text-end">July 2022 - July 2023</p>
 </div>
@@ -47,7 +47,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 
 - Proposed a deep learning network of image harmonization guided by reflectance. Designed a multi-modal reflectance generation network to produce a variety of plausible foreground reflectances, thereby enabling the generation of multiple harmonization results.
 
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-between" style="margin-top:2em">
   <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
   <p class="text-end">September 2021 - June 2023</p>
 </div>
@@ -64,11 +64,19 @@ My research interest lies in the expansive fields of systems, networking, and ma
 # Selected Projects
 ---
 
-> *Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.*
+> Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
-[**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU) | *CPU, FPGA, Verilog, RISC-V*
+[**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU)
+- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
 
-- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in
-Verilog, tested on AX7035 Board.
+[**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
+- Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
 
-<!-- {% include contact.html %} -->
+[**Ray Tracer**](https://github.com/PaperL/Toy_Ray_Tracer)
+- Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.
+
+[**PTL**](https://github.com/PaperL/PTL)
+- Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
+
+[**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
+- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.

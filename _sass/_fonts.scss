@@ -1,3 +1,21 @@
+@mixin font-face-SourceHanSans($font-weight: normal, $font-style: normal) {
+  @font-face {
+    font-family: 'SourceHanSans';
+    src: url('/assets/fonts/SourceHanSansSC-VF.otf.woff2') format('woff2');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+
+@include font-face-SourceHanSans(normal, normal);
+@include font-face-SourceHanSans(normal, italic);
+@include font-face-SourceHanSans(bold, normal);
+@include font-face-SourceHanSans(bold, italic);
+@include font-face-SourceHanSans(lighter, normal);
+@include font-face-SourceHanSans(lighter, italic);
+@include font-face-SourceHanSans(bolder, normal);
+@include font-face-SourceHanSans(lighter, italic);
+
 @font-face {
   font-family: 'Piazzolla';
   src: url('../fonts/Piazzolla-Light.woff2') format('woff2');
