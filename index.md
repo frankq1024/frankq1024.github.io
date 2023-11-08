@@ -6,17 +6,17 @@ title: Home
 # Tianyuan Qiu (仇天元)
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-3">
+    <div class="row justify-content-between">
+        <div class="col-auto">
             Linkdein<br><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
         </div>
-        <div class="col-md-3">
+        <div class="col-auto">
             Github<br><a href="https://github.com/{{ site.social.github }}">{{ site.social.github }}</a>
         </div>
-        <div class="col-md-3">
+        <div class="col-auto">
             E-mail<br><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
         </div>
-        <div class="col-md-3">
+        <div class="col-auto">
             CV<br><a href="/attachments/cv/cv.pdf">PDF File</a>
         </div>
     </div>
