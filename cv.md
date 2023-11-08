@@ -3,8 +3,6 @@ layout: cv
 title: CV
 ---
 
-> [CV PDF](/attachments/cv/cv.pdf)
-
 # Education
 ---
 
