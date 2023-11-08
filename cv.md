@@ -4,8 +4,8 @@ title: CV
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start"># Tianyuan Qiu</p>
-  <p class="text-end"><a class="particles-icon" href="/attachments/cv/cv.pdf">{% include svg/cv-circled.svg %}</a></p>
+  <p class="text-start"><h1>Tianyuan Qiu</h1></p>
+  <p class="text-end">[PDF](/attachments/cv/cv.pdf)</p>
 </div>
 
 ## Education
