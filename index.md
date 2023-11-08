@@ -13,6 +13,6 @@ Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/)
 
 {% include_relative cv.md %}
 
-<div class="invisible-space mt-5"></div>
+<div class="invisible-space" style="height: 40vh"></div>
 
 <!--{% include archive.html %}-->

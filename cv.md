@@ -6,6 +6,7 @@ title: CV
 > [CV PDF](/attachments/cv/cv.pdf)
 
 # Education
+---
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b>Shanghai Jiao Tong University</b></p>
@@ -16,11 +17,13 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div>
 
-# **Research Interest**
+# Research Interest
+---
 
 My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I’m focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
 
 # Experience
+---
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
@@ -59,6 +62,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 - CS2952 Operating System, Spring 2023
 
 # Selected Projects
+---
 
 > Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
@@ -78,6 +82,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 - Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.
 
 # Publication
+---
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b>Multi-modal Image Harmonization</b></p>
@@ -94,6 +99,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 *Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
 
 # Skills
+---
 
 - **Programming**: Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).
 
@@ -102,6 +108,7 @@ My research interest lies in the expansive fields of systems, networking, and ma
 - **Collaboration and Communication**: Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.
 
 # Awards
+---
 
 <div class="d-flex justify-content-between">
   <p class="text-start">SJTU Merit Scholarship</p>
