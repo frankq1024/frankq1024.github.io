@@ -44,13 +44,13 @@ Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/)
 
 # More than coding
 
-I've always been passionate about learning new knowledge, whether it's in the realm of science and engineering or in humanities and the arts. I especially like J-pop, font design, graphic design, animation, and game as art.
+I've always been passionate about learning new knowledge, whether it's in the realm of science and engineering or in humanities and the arts. I especially like J-pop, font design, graphic design, animation, game as art, and different beverages.
 
 Here is a simple work written in Processing.
 
 <div class="invisible-space" style="height: 15vh"></div>
 
-<div id="container" style="position: relative; width: 100vw; height: 100vh; left: 50%; transform: translateX(-50%);">
+<div id="bulkyContainer" style="position: relative; width: 100vw; height: 30vh; left: 50%; transform: translateX(-50%);">
   <div id="clickToLoad" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
     Click to Load
   </div>
@@ -60,15 +60,17 @@ Here is a simple work written in Processing.
 </div>
 
 <script>
-  var clickToLoad = document.getElementById("clickToLoad");
-  var iframeContainer = document.getElementById("iframeContainer");
-  var iframe = document.getElementById("iframe");
+    var bulkyContainer = document.getElementById("bulkyContainer");
+    var clickToLoad = document.getElementById("clickToLoad");
+    var iframeContainer = document.getElementById("iframeContainer");
+    var iframe = document.getElementById("iframe");
 
-  clickToLoad.addEventListener("click", function() {
-    clickToLoad.style.display = "none";
-    iframeContainer.style.display = "block";
-    iframe.src = "https://openprocessing.org/sketch/2080432/embed/";
-  });
+    clickToLoad.addEventListener("click", function() {
+        bulkyContainer.style.height = "100vh";
+        clickToLoad.style.display = "none";
+        iframeContainer.style.display = "block";
+        iframe.src = "https://openprocessing.org/sketch/2080432/embed/";
+    });
 </script>
 
 
