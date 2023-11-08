@@ -42,7 +42,9 @@ Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/)
 
 <div class="invisible-space" style="height: 30vh"></div>
 
-<iframe src="https://openprocessing.org/sketch/2080432/embed/" style="display: block; margin: 0 auto; width: 100vh; height: 100vh"></iframe>
+<div style="position: relative; width: 100vw; height: 100vh; left: 50%; transform: translateX(-50%);">
+  <iframe src="https://openprocessing.org/sketch/2080432/embed/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+</div>
 
 <div class="invisible-space" style="height: 40vh"></div>
 
