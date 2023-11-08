@@ -1,0 +1,277 @@
+%-------------------------
+% Resume in Latex
+% Author: Frank Qiu
+% Based off of: https://github.com/jakegut/resume and https://github.com/sb2nov/resume
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{graphicx}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage[default,regular,black]{sourceserifpro}
+\usepackage{charter}
+% \usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}
+{\vspace{3pt}\Large\bfseries\scshape\raggedright \fontfamily{pnc}\selectfont}
+{}{0em}{}[\color{gray}\titlerule \vspace{0pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\newcommand{\grayunderline}[1]{\setulcolor{lightgray}\setul{0.5ex}{0.1pt}\ul{#1}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+% \fancyhead[R]{the top right header}
+
+\begin{center}
+    {\Huge \scshape \fontfamily{cmr}\selectfont\textbf{Tianyuan Qiu}} \\ \vspace{8pt}
+    \small
+    \href{tel:+8618116417218}{\raisebox{-0.1\height}\faPhone\ \grayunderline{+86 181-1641-7218}} ~
+    \href{mailto:frank_qiu@sjtu.edu.cn}{\raisebox{-0.15\height}\faEnvelope\ \grayunderline{frankq1024@gmail.com}} ~
+    \scalebox{0.93}{\raisebox{-0.05\height}\faEdit}\ Updated: November 2023 ~ \\
+    \vspace{5pt}
+    \href{https://github.com/PaperL/}{\raisebox{-0.15\height}\faGithub\ \grayunderline{github.com/PaperL}} ~
+    \href{https://www.linkedin.com/in/tianyuan-qiu/}{\raisebox{-0.15\height}\faLinkedin\ \grayunderline{linkedin.com/in/tianyuan-qiu}} ~
+    \href{https://frankq1024.github.io/}{\raisebox{-0.15\height}\faHome\ \grayunderline{frankq1024.github.io}} ~
+    \vspace{-10pt}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shanghai Jiao Tong University}{Sep. 2020 -- June 2024}
+      {B.S. in Computer Science and Technology (Zhiyuan Honors Program)}{Shanghai, China}
+  \resumeSubHeadingListEnd
+
+%------RESEARCH INTEREST-------
+\section{Research Interest}
+    
+My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I'm focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
+\vspace{-4pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+        {\href{https://dsl.cis.upenn.edu/}{\grayunderline{Distributed Systems Laboratory}}, University of Pennsylvania}{August 2023 -- December 2023}
+        {Research Assistant, advised by Prof. Vincent Liu}{Philadelphia, Pennsylvania, US}
+        \resumeItemListStart
+            \resumeItem{Investigated co-design of the FPGA-based SmartNIC and the host networking stack to leverage idle PCIe transactional bandwidth to mitigate host congestion and optimize tail latencies for high-level applications.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {\href{https://bcmi.sjtu.edu.cn/}{\grayunderline{BCMI Laboratory}}, Shanghai Jiao Tong University}{July 2022 -- July 2023}
+      {Research Assistant, advised by Prof. Li Niu}{Shanghai, China}
+        \resumeItemListStart
+            \resumeItem{Proposed a deep learning network of image harmonization guided by reflectance. Designed a multi-modal reflectance generation network to produce a variety of plausible foreground reflectances, thereby enabling the generation of multiple harmonization results.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {\href{https://en.zhiyuan.sjtu.edu.cn/}{\grayunderline{Zhiyuan College}}, Shanghai Jiao Tong University}{September 2021 -- June 2023}
+        {Teaching Assistant}{Shanghai, China}
+        \vspace{7pt}
+        \begin{multicols}{2}
+            \begin{itemize}[itemsep=0pt, parsep=0pt]
+                \item\small CS1953 Programming, Fall 2021
+                \item CS1952 Programming Practice, Summer 2022
+                \item CS2951 Computer Architecture, Fall 2022
+                \item CS2952 Operating System, Spring 2023
+            \end{itemize}
+        \end{multicols}
+    \resumeSubHeadingListEnd
+  
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+    \vspace{-3pt}
+    \small\textcolor{gray}{\textit{(Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.)}}
+    \vspace{-10pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\href{https://github.com/PaperL/RISC-V_CPU}{\grayunderline{\textbf{RISC-V Out-of-Order Execution CPU}}}
+            \enspace$|$\enspace\emph{CPU, FPGA, Verilog, RISC-V}}{Fall 2021}
+            \resumeItemListStart
+                \resumeItem{Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.}
+            \resumeItemListEnd
+            \vspace{-10pt}
+        \resumeProjectHeading
+            {\href{https://github.com/PaperL/Mxx-Compiler}{\grayunderline{\textbf{Mx* Compiler}}}
+            \enspace$|$\enspace\emph{Compiler, LLVM IR, RISC-V, Java}}{Fall 2021}
+            \resumeItemListStart
+                \resumeItem{Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.}
+            \resumeItemListEnd
+            \vspace{-10pt}
+        \resumeProjectHeading
+            {\href{https://github.com/PaperL/Toy_Ray_Tracer}{\grayunderline{\textbf{Ray Tracer}}}
+            \enspace$|$\enspace\emph{Ray Tracing, Rust}}{Summer 2021}
+            \resumeItemListStart
+                \resumeItem{Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.}
+            \resumeItemListEnd
+            \vspace{-10pt}
+        \resumeProjectHeading
+            {\href{https://github.com/PaperL/PTL}{\grayunderline{\textbf{PTL}}}
+            \enspace$|$\enspace\emph{STL, C++}}{Spring 2021}
+            \resumeItemListStart
+                \resumeItem{Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.}
+            \resumeItemListEnd
+            \vspace{-10pt}
+        \resumeProjectHeading
+            {\href{https://github.com/PaperL/LTL_Model_Checking_Project}{\grayunderline{\textbf{LTL Model Checking}}}
+            \enspace$|$\enspace\emph{Model Checking, Logic, Java}}{Spring 2023}
+            \resumeItemListStart
+                \resumeItem{Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.}
+            \resumeItemListEnd
+            \vspace{-10pt}
+    \resumeSubHeadingListEnd
+
+
+%-----------Publication---------------
+\section{Publication}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+        {Multi-modal Image Harmonization}{Submitted to AAAI 2024}
+        {Xinhao Tao, \textbf{Tianyuan Qiu}, Junyan Cao, Li Niu}{}
+    \vspace{10pt}
+    \resumeSubheading
+        {\href{https://paperl.github.io/Human-3D-Diffusion/}{\grayunderline{DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model}}}{Accepted by ICIPMC 2023}
+        {Chaofan Lin, \textbf{Tianyuan Qiu}, Hanchong Yan, Muzi Tao}{}
+    \vspace{0pt}
+    \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0in, label={}, itemsep=4pt]
+\small{
+    \item{\textbf{Programming: }{Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).}}
+    \item{\textbf{Engineering: }{Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx's Vivado).}}
+    \item{\textbf{Collaboration and Communication: }{Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.}}
+}
+\end{itemize}
+
+
+%-----------Awards---------------
+\section{Awards}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading{Zhiyuan Honors Scholarship}{2020, 2021, 2022, 2023}
+        \vspace{-17pt}
+        \resumeProjectHeading{SJTU Merit Scholarship - C Level}{2021, 2022}
+        \vspace{-17pt}
+        \resumeProjectHeading{NOIP2017 Senior Group, Shanghai Area, First Prize}{2017}
+    \resumeSubHeadingListEnd
+
+
+\end{document}
