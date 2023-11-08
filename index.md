@@ -44,13 +44,15 @@ Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/)
 
 # More than coding
 
-I've always been passionate about learning new knowledge, whether it's in the realm of science and engineering or in humanities and the arts.
+I've always been passionate about learning new knowledge, whether it's in the realm of science and engineering or in humanities and the arts. I especially like J-pop, font design, graphic design, animation, and game as art.
+
+Here is a simple work written in Processing.
 
 <div class="invisible-space" style="height: 15vh"></div>
 
 <div id="container" style="position: relative; width: 100vw; height: 100vh; left: 50%; transform: translateX(-50%);">
   <div id="clickToLoad" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
-    Click to load
+    Click to Load
   </div>
   <div id="iframeContainer" style="display: none;">
     <iframe id="iframe" src="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
