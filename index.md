@@ -3,16 +3,18 @@ layout: home
 title: Home
 ---
 
-# About
+# About Me
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Updated on November 2023
 
-This is the home page. It can be used for a short introduction. [Click here](/cv) to see the full CV, and [here](/cv.pdf) to download a print version. The theme also ships with a blog: [click here](/posts) to scroll posts from the most recent. Finally, [click here](/404) to see a page that can't be found.
+I'm an undergraduate student of [ACM Honors Class](https://acm.sjtu.edu.cn/), [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), majoring in Computer Science and Technology.
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/), [University of Pennsylvania](https://www.upenn.edu/), mentored by [Prof. Vincent Liu](https://vincen.tl/) and [Ph.D. Liangcheng Yu](https://liangchengyu.com/). We are doing research about FPGA-based SmartNIC.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<article id="cv">
+  <main>
+    {{ content }}
+  </main>
+</article>
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
-
-{% include archive.html %}
+<!--{% include archive.html %}-->

@@ -3,19 +3,17 @@ layout: cv
 title: CV
 ---
 
-# Curriculum Vitæ
+# Tianyuan Qiu
 
-{% include contact.html %}
+## Education
 
-## Section
+<div class="d-flex justify-content-between">
+  <p class="text-start">Shanghai Jiao Tong University</p>
+  <p class="text-end">Sep. 2020 – June 2024</p>
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Research Interest
 
-* Ut enim ad minim veniam
-* Quis nostrud exercitation
-* Ullamco laboris nisi
-* Ut aliquip ex ea commodo consequat
+My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I’m focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
 
-### Subsection
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- {% include contact.html %} -->
