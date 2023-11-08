@@ -13,6 +13,7 @@ h1,h2,h3 {
 }
 
 h1 {
+  margin-bottom: 0.8em;
   font-size: 1.5em;
 
   &.page-title {
@@ -26,11 +27,13 @@ h1 {
 
 h2 {
   margin-top: 1.25em;
+  margin-bottom: 0.8em;
   font-size: 1.25em;
 }
 
 h3 {
   margin-top: 1em;
+  margin-bottom: 0.8em;
   font-size: 1em;
   text-transform: lowercase;
   font-family: var(--type-caps);
