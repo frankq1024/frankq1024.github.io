@@ -3,7 +3,10 @@ layout: cv
 title: CV
 ---
 
-# Tianyuan Qiu
+<div class="d-flex justify-content-between">
+  <p class="text-start"># Tianyuan Qiu</p>
+  <p class="text-end"><a class="particles-icon" href="/attachments/cv/cv.pdf">{% include svg/cv-circled.svg %}</a></p>
+</div>
 
 ## Education
 
@@ -13,8 +16,8 @@ title: CV
 </div>
 
 <div class="d-flex justify-content-between">
-  <p class="text-start"><em>B.S. in Computer Science and Technology (Zhiyuan Honors Program)<em></p>
-  <p class="text-end"><em>Shanghai, China<em></p>
+  <p class="text-start"><em>B.S. in Computer Science and Technology (Zhiyuan Honors Program)</em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
 </div>
 
 ## Research Interest
