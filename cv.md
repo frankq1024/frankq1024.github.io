@@ -76,3 +76,44 @@ My research interest lies in the expansive fields of systems, networking, and ma
 
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
 - Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.
+
+# Publication
+
+<div class="d-flex justify-content-between">
+  <p class="text-start"><b>Multi-modal Image Harmonization</b></p>
+  <p class="text-end">Submitted to AAAI 2024</p>
+</div>
+
+*Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
+
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://paperl.github.io/Human-3D-Diffusion/">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></p>
+  <p class="text-end">Accepted by ICIPMC 2023</p>
+</div>
+
+*Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
+
+# Skills
+
+- **Programming**: Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).
+
+- **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx’s Vivado).
+
+- **Collaboration and Communication**: Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.
+
+# Awards
+
+<div class="d-flex justify-content-between">
+  <p class="text-start">SJTU Merit Scholarship</p>
+  <p class="text-end">2021, 2022</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start">Zhiyuan Honors Scholarship</p>
+  <p class="text-end">2020, 2021, 2022, 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start">NOIP2017 Senior Group, Shanghai Area, First Prize</p>
+  <p class="text-end">2017</p>
+</div>
+
+
