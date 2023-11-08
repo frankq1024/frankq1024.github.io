@@ -48,9 +48,27 @@ I've always been passionate about learning new knowledge, whether it's in the re
 
 <div class="invisible-space" style="height: 15vh"></div>
 
-<div style="position: relative; width: 100vw; height: 100vh; left: 50%; transform: translateX(-50%);">
-  <iframe src="https://openprocessing.org/sketch/2080432/embed/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+<div id="container" style="position: relative; width: 100vw; height: 100vh; left: 50%; transform: translateX(-50%);">
+  <div id="clickToLoad" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
+    Click to load
+  </div>
+  <div id="iframeContainer" style="display: none;">
+    <iframe id="iframe" src="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+  </div>
 </div>
+
+<script>
+  var clickToLoad = document.getElementById("clickToLoad");
+  var iframeContainer = document.getElementById("iframeContainer");
+  var iframe = document.getElementById("iframe");
+
+  clickToLoad.addEventListener("click", function() {
+    clickToLoad.style.display = "none";
+    iframeContainer.style.display = "block";
+    iframe.src = "https://openprocessing.org/sketch/2080432/embed/";
+  });
+</script>
+
 
 <div class="invisible-space" style="height: 40vh"></div>
 
