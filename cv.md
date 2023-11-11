@@ -3,7 +3,7 @@ layout: cv
 title: CV
 --- -->
 
-# Education
+<!-- # Education
 ---
 
 <div class="d-flex justify-content-between">
@@ -13,12 +13,44 @@ title: CV
 <div class="d-flex justify-content-between">
   <p class="text-start"><em>B.S. in Computer Science and Technology (Zhiyuan Honors Program)</em></p>
   <p class="text-end"><em>Shanghai, China</em></p>
-</div>
+</div> -->
 
-# Research Interest
+# Publication
 ---
 
-My research interest lies in the expansive fields of systems, networking, and machine learning. With an integrated understanding of principles from high-level applications to underlying systems and architectures, I am dedicated to innovative system design. Currently, I’m focusing on using FPGA-based SmartNICs to implement offload from the host, aiming to enhance network performance.
+<div class="d-flex justify-content-between">
+  <p class="text-start"><b>Multi-modal Image Harmonization</b></p>
+  <p class="text-end">Submitted to AAAI 2024</p>
+</div>
+
+*Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
+
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://paperl.github.io/Human-3D-Diffusion/">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></p>
+  <p class="text-end">Accepted by ICIPMC 2023</p>
+</div>
+
+*Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
+
+# Selected Projects
+---
+
+> Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
+
+[**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU)
+- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
+
+[**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
+- Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
+
+[**Ray Tracer**](https://github.com/PaperL/Toy_Ray_Tracer)
+- Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.
+
+[**PTL**](https://github.com/PaperL/PTL)
+- Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
+
+[**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
+- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.
 
 # Experience
 ---
@@ -59,52 +91,6 @@ My research interest lies in the expansive fields of systems, networking, and ma
 - CS2951 Computer Architecture, Fall 2022
 - CS2952 Operating System, Spring 2023
 
-# Selected Projects
----
-
-> Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
-
-[**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU)
-- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
-
-[**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
-- Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
-
-[**Ray Tracer**](https://github.com/PaperL/Toy_Ray_Tracer)
-- Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.
-
-[**PTL**](https://github.com/PaperL/PTL)
-- Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
-
-[**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
-- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.
-
-# Publication
----
-
-<div class="d-flex justify-content-between">
-  <p class="text-start"><b>Multi-modal Image Harmonization</b></p>
-  <p class="text-end">Submitted to AAAI 2024</p>
-</div>
-
-*Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
-
-<div class="d-flex justify-content-between" style="margin-top:2em">
-  <p class="text-start"><b><a href="https://paperl.github.io/Human-3D-Diffusion/">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></p>
-  <p class="text-end">Accepted by ICIPMC 2023</p>
-</div>
-
-*Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
-
-# Skills
----
-
-- **Programming**: Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).
-
-- **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx’s Vivado).
-
-- **Collaboration and Communication**: Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.
-
 # Awards
 ---
 
@@ -121,4 +107,11 @@ My research interest lies in the expansive fields of systems, networking, and ma
   <p class="text-end">2017</p>
 </div>
 
+# Skills
+---
 
+- **Programming**: Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).
+
+- **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx’s Vivado).
+
+- **Collaboration and Communication**: Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.
