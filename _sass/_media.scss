@@ -51,7 +51,9 @@
     -webkit-transform: scale(3.6);
     transform: scale(3.6);
   }
+}
 
+@media screen and (max-width: 992px) {
   .particles-container {
     height: 40vh;
   }
