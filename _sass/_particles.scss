@@ -1,3 +1,30 @@
+.particles-container {
+  @media (max-width: 768px) {
+    height: 100vh;
+
+    .jumbotron {
+      height: 100vh;
+    }
+
+    .row.justify-content-center.align-items-center {
+      height: 100vh;
+    }
+
+    .particles-scroll {
+      display: block;
+    }
+
+    .particles-js-canvas-el {
+      height: 100vh;
+    }
+  }
+}
+
+.particles-scroll {
+  display: none;
+}
+
+
 #particles-js {
   width: 100%;
   background-repeat: no-repeat;
