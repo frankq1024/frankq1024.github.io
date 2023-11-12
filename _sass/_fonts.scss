@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'GenWanMin';
+  src: url('../fonts/GenWanMinTW-M.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @mixin font-face-SourceHanSans($font-weight: normal, $font-style: normal) {
   @font-face {
     font-family: 'SourceHanSans';
