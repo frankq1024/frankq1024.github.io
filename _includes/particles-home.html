@@ -1,46 +1,44 @@
-<div id="particles-js" class="fullscreen" style="width: 100vw; height: 25vh;">
+<div id="particles-js" class="fullscreen" style="width: 100vw; height: 30vh;">
   <div class="jumbotron">
-    <div class="col col-sm-8 col-md-7 col-lg-6">
-      <div class="row justify-content-center">
-        {% if site.photo %}
-        <div class="col-sm-6 text-center text-sm-left">
-          <img class="particles-photo" src="{{ site.photo }}" />
-        </div>
-        {% endif %}
-        <div class="col-sm-6 text-center text-sm-right">
-          <h1 class="particles-title">{{ site.title }}</h1>
-          <h1 class="particles-subtitle">{{ site.taglong }}</h1>
-          <div class="nowrap">
-            {% if site.social.github %}
-            <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg
-              %}</a>
-            {% endif %}
-            {% if site.social.stackoverflow %}
-            <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">
-              {% include svg/stackoverflow.svg %}</a>
-            {% endif %}
-            {% if site.social.linkedin %}
-            <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">
-              {% include svg/linkedin.svg %}</a>
-            {% endif %}
-            {% if site.social.facebook %}
-            <a class="particles-icon" href="https://www.facebook.com/{{ site.social.facebook }}">
-              {% include svg/facebook.svg
-              %}</a>
-            {% endif %}
-            {% if site.social.twitter %}
-            <a class="particles-icon" href="https://twitter.com/{{ site.social.twitter }}">
-              {% include svg/twitter.svg %}</a>
-            {% endif %}
-            {% if site.social.instagram %}
-            <a class="particles-icon" href="https://www.instagram.com/{{ site.social.instagram }}">
-              {% include svg/instagram.svg %}</a>
-            {% endif %}
-            {% if site.social.email %}
-            <a class="particles-icon" href="mailto:{{ site.social.email }}">{% include svg/mail.svg %}</a>
-            {% endif %}
-            <a class="particles-icon" href="/attachments/cv/cv.pdf">{% include svg/cv-circled.svg %}</a>
-          </div>
+    <div class="row justify-content-center">
+      {% if site.photo %}
+      <div class="col-sm-4 text-center text-sm-left">
+        <img class="particles-photo" src="{{ site.photo }}" />
+      </div>
+      {% endif %}
+      <div class="col-sm-8 text-center text-sm-right">
+        <h1 class="particles-title">{{ site.title }}</h1>
+        <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+        <div class="nowrap">
+          {% if site.social.github %}
+          <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg
+            %}</a>
+          {% endif %}
+          {% if site.social.stackoverflow %}
+          <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">
+            {% include svg/stackoverflow.svg %}</a>
+          {% endif %}
+          {% if site.social.linkedin %}
+          <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">
+            {% include svg/linkedin.svg %}</a>
+          {% endif %}
+          {% if site.social.facebook %}
+          <a class="particles-icon" href="https://www.facebook.com/{{ site.social.facebook }}">
+            {% include svg/facebook.svg
+            %}</a>
+          {% endif %}
+          {% if site.social.twitter %}
+          <a class="particles-icon" href="https://twitter.com/{{ site.social.twitter }}">
+            {% include svg/twitter.svg %}</a>
+          {% endif %}
+          {% if site.social.instagram %}
+          <a class="particles-icon" href="https://www.instagram.com/{{ site.social.instagram }}">
+            {% include svg/instagram.svg %}</a>
+          {% endif %}
+          {% if site.social.email %}
+          <a class="particles-icon" href="mailto:{{ site.social.email }}">{% include svg/mail.svg %}</a>
+          {% endif %}
+          <a class="particles-icon" href="/attachments/cv/cv.pdf">{% include svg/cv-circled.svg %}</a>
         </div>
       </div>
     </div>
