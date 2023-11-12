@@ -41,13 +41,19 @@ title: CV
 - Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5">
+  <div class="col-10 col-lg-7">
     <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
   </div>
 </div>
 
 [**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
 - Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
+
+<div style="display: flex; justify-content: center;">
+  <div class="col-10 col-lg-7">
+    <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
+  </div>
+</div>
 
 [**Ray Tracer**](https://github.com/PaperL/Toy_Ray_Tracer)
 - Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.
