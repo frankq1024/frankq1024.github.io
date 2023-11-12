@@ -25,12 +25,24 @@ title: CV
 
 *Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
 
+<div style="display: flex; justify-content: center;">
+  <div class="col-8 col-lg-5">
+    <img src="/attachments/images/image_harmonization.jpg" />
+  </div>
+</div>
+
 <div class="d-flex justify-content-between" style="margin-top:2em">
   <p class="text-start"><b><a href="https://paperl.github.io/Human-3D-Diffusion/">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></p>
   <p class="text-end">Accepted by ICIPMC 2023</p>
 </div>
 
 *Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
+
+<div style="display: flex; justify-content: center;">
+  <div class="col-8 col-lg-5">
+    <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" />
+  </div>
+</div>
 
 # Selected Projects
 ---
@@ -41,7 +53,7 @@ title: CV
 - Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-10 col-lg-7">
+  <div class="col-8 col-lg-5">
     <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
   </div>
 </div>
@@ -50,7 +62,7 @@ title: CV
 - Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-10 col-lg-7">
+  <div class="col-8 col-lg-5">
     <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
   </div>
 </div>
