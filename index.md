@@ -3,7 +3,9 @@ layout: home
 title: Home
 ---
 
-# Tianyuan Qiu (仇天元)
+<h1 style="font-family: var(--type-serif-cn);">仇天元</h1>
+
+> The pronunciation of my Chinese name is "Chyoh Tyen Ywen" (Qíu Tiān Yuán).
 
 <style>
   .no-padding-here {
@@ -36,7 +38,7 @@ Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/)
 
 My research interest lies in the fields of systems, networking, and machine learning. In particular, I enjoy taking a bottom-up approach, from low level architecture and operating system all the way to the upper layer applications like Machine Learning. Recently, I'm working on improving network performance by offloading with FPGA-based SmartNICs.
 
-> This page was updated in November 2023
+> This page was updated in November 2023.
 
 <div class="invisible-space" style="height: 3em"></div>
 
