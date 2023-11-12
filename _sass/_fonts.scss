@@ -7,15 +7,6 @@
   }
 }
 
-@include font-face-SourceHanSans(normal, normal);
-@include font-face-SourceHanSans(normal, italic);
-@include font-face-SourceHanSans(bold, normal);
-@include font-face-SourceHanSans(bold, italic);
-@include font-face-SourceHanSans(lighter, normal);
-@include font-face-SourceHanSans(lighter, italic);
-@include font-face-SourceHanSans(bolder, normal);
-@include font-face-SourceHanSans(lighter, italic);
-
 @mixin font-face-SourceHanSerif($font-weight: normal, $font-style: normal) {
   @font-face {
     font-family: 'SourceHanSerif';
@@ -24,15 +15,16 @@
     font-style: $font-style;
   }
 }
+@include font-face-SourceHanSerif(400, normal);
 
-@include font-face-SourceHanSerif(normal, normal);
-@include font-face-SourceHanSerif(normal, italic);
-@include font-face-SourceHanSerif(bold, normal);
-@include font-face-SourceHanSerif(bold, italic);
-@include font-face-SourceHanSerif(lighter, normal);
-@include font-face-SourceHanSerif(lighter, italic);
-@include font-face-SourceHanSerif(bolder, normal);
-@include font-face-SourceHanSerif(lighter, italic);
+@include font-face-SourceHanSans(normal, normal);
+@include font-face-SourceHanSans(normal, italic);
+@include font-face-SourceHanSans(bold, normal);
+@include font-face-SourceHanSans(bold, italic);
+@include font-face-SourceHanSans(lighter, normal);
+@include font-face-SourceHanSans(lighter, italic);
+@include font-face-SourceHanSans(bolder, normal);
+@include font-face-SourceHanSans(lighter, italic);
 
 @font-face {
   font-family: 'Piazzolla';
