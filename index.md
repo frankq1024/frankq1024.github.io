@@ -54,7 +54,7 @@ Here is a simple work written in Processing.
 
 <div class="invisible-space" style="height: 15vh"></div>
 
-<div id="bulkyContainer" style="position: relative; width: 100vw; height: 30vh; left: 50%; transform: translateX(-50%);">
+<div id="bulkyContainer" style="position: relative; width: 100vw; height: 10vh; left: 50%; transform: translateX(-50%);">
   <div id="clickToLoad" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
     Click to Load
   </div>
@@ -74,6 +74,7 @@ Here is a simple work written in Processing.
         clickToLoad.style.display = "none";
         iframeContainer.style.display = "block";
         iframe.src = "https://openprocessing.org/sketch/2080432/embed/";
+        bulkyContainer.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the top of the bulkyContainer element
     });
 </script>
 
