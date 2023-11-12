@@ -24,6 +24,7 @@
 
   #particles-content {
     min-height: 300px;
+    text-align: center;
   }
 }
 
@@ -65,8 +66,8 @@
   pointer-events: all;
 
   svg {
-    -webkit-transform: scale(1.8);
-    transform: scale(1.8);
+    // -webkit-transform: scale(1.8);
+    transform: scale(1.3);
   }
 
   svg circle,
