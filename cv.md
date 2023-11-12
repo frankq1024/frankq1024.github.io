@@ -40,6 +40,10 @@ title: CV
 [**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU)
 - Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
 
+<div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
+  <img class="particles-photo" src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
+</div>
+
 [**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
 - Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
 
