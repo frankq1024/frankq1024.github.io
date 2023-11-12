@@ -1,4 +1,5 @@
 @media (prefers-color-scheme: dark) {
+
   html,
   html[data-theme="dark"] {
     --color-background: var(--oc-gray-9);
@@ -23,7 +24,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   body {
     font-size: 1.25em;
   }
@@ -49,6 +50,18 @@
   .particles-scroll svg {
     -webkit-transform: scale(3.6);
     transform: scale(3.6);
+  }
+
+  .particles-container {
+    height: 40vh;
+  }
+
+  .jumbotron {
+    height: 40vh;
+  }
+
+  .row.justify-content-center.align-content-center {
+    height: 40vh;
   }
 }
 
