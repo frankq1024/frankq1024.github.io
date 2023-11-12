@@ -26,7 +26,7 @@ title: CV
 *Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5">
+  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
     <img src="/attachments/images/image_harmonization.jpg" />
   </div>
 </div>
@@ -39,7 +39,7 @@ title: CV
 *Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5">
+  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
     <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" />
   </div>
 </div>
@@ -53,7 +53,7 @@ title: CV
 - Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5">
+  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
     <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
   </div>
 </div>
@@ -62,13 +62,19 @@ title: CV
 - Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
 
 <div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5">
+  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
     <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
   </div>
 </div>
 
 [**Ray Tracer**](https://github.com/PaperL/Toy_Ray_Tracer)
 - Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.
+
+<div style="display: flex; justify-content: center;">
+  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" />
+  </div>
+</div>
 
 [**PTL**](https://github.com/PaperL/PTL)
 - Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
