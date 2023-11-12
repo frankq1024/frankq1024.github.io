@@ -1,26 +1,5 @@
-.particles-container {
-  @media (max-width: 992px) {
-    // height: 100vh;
-
-    // .jumbotron {
-    //   height: 100vh;
-    // }
-
-    // .row.justify-content-center.align-content-center {
-    //   height: 100vh;
-    // }
-
-    // .particles-scroll {
-    //   display: block;
-    // }
-
-    // .particles-js-canvas-el {
-    //   height: 100vh;
-    // }
-  }
-}
-
 #particles-js {
+  min-height: 340px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +19,11 @@
     transform: translate(-50%, 0%);
     pointer-events: none;
     height: 25vh;
+    min-height: 340px;
+  }
+
+  #particles-content {
+    min-height: 300px;
   }
 }
 
