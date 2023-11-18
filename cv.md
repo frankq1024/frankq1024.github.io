@@ -19,8 +19,8 @@ title: CV
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start"><b>Multi-modal Image Harmonization</b></p>
-  <p class="text-end">Submitted to AAAI 2024</p>
+  <p class="text-start"><b>Diverse Image Harmonization</b></p>
+  <p class="text-end">Submitted to CVPR 2024</p>
 </div>
 
 *Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
@@ -105,7 +105,7 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div>
 
-- Proposed a deep learning network of image harmonization guided by reflectance. Designed a multi-modal reflectance generation network to produce a variety of plausible foreground reflectances, thereby enabling the generation of multiple harmonization results.
+- Proposed a deep learning network of image harmonization guided by reflectance. Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances, thereby enabling the generation of multiple plausible harmonization results.
 
 <div class="d-flex justify-content-between" style="margin-top:2em">
   <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
