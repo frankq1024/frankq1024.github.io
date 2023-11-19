@@ -23,18 +23,18 @@ title: CV
   <p class="text-end">Submitted</p>
 </div>
 
-<div class="d-flex justify-content-between" style="margin-top:2em">
-  <p class="text-start"><b><a href="https://paperl.github.io/Human-3D-Diffusion/">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></p>
-  <p class="text-end">Accepted by ICIPMC 2023</p>
-</div>
-
-*Chaofan Lin, **Tianyuan Qiu**, Hanchong Yan, Muzi Tao*
-
-<div style="display: flex; justify-content: center;">
-  <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" />
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" style="object-fit: contain;"/>
+  </div>
+  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+    <span><b><a href="https://paperl.github.io/Human-3D-Diffusion/" style="margin: 1em 0">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></span>
+    <span><i>Chaofan Lin, <b>Tianyuan Qiu</b>, Hanchong Yan, Muzi Tao</i></span>
+    <span>Accepted by ICIPMC 2023</span>
   </div>
 </div>
+
+
 
 # Selected Projects
 ---
@@ -43,30 +43,30 @@ title: CV
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
+    <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" style="object-fit: contain;"/>
   </div>
   <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
-    <strong href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</strong>
+    <span><b><a href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</a></b></span>
     <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
   </div>
 </div>
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
+    <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" style="object-fit: contain;"/>
   </div>
   <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
-    <strong href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</strong>
+    <span><b><a href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</a></b></span>
     <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
   </div>
 </div>
 
 <div class="row justify-content-center align-content-center">
-  <div class="col-8 col-lg-4" style="display: flex; justify-content: center; margin-right: 2em;">
-    <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" />
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
   </div>
   <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
-    <strong href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</strong>
+    <span><b><a href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</a></b></span>
     <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
   </div>
 </div>
