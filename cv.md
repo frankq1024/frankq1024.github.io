@@ -20,7 +20,7 @@ title: CV
 
 <div class="d-flex justify-content-between">
   <p class="text-start"><b>Diverse Image Harmonization</b></p>
-  <p class="text-end">Submitted to CVPR 2024</p>
+  <p class="text-end">Submitted</p>
 </div>
 
 *Xinhao Tao, **Tianyuan Qiu**, Junyan Cao, Li Niu*
