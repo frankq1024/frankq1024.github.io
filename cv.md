@@ -41,7 +41,35 @@ title: CV
 
 > Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
-<div id="projects-container"></div>
+<div style="display: flex; justify-content: left;">
+  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+    <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
+  </div>
+  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
+    <strong href="https://github.com/PaperL/RISC-V_CPU" style="margin: 1em 0">RISC-V Out-of-Order Execution CPU</strong>
+    <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: left;">
+  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+    <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
+  </div>
+  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
+    <strong href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</strong>
+    <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: left;">
+  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+    <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" />
+  </div>
+  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
+    <strong href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</strong>
+    <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
+  </div>
+</div>
 
 [**PTL**](https://github.com/PaperL/PTL)
 - Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
@@ -112,48 +140,3 @@ title: CV
 - **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx’s Vivado).
 
 - **Collaboration and Communication**: Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.
-
-<script>
-function createProjectEntry(imageUrl, title, description, projectUrl) {
-  return `
-  <div style="display: flex; justify-content: left;">
-    <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
-      <img src="${imageUrl}" />
-    </div>
-    <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
-      <strong href="${projectUrl}" style="margin: 1em 0">${title}</strong>
-      <li>${description}</li>
-    </div>
-  </div>
-  `;
-}
-
-var projects = [
-  {
-    imageUrl: 'https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png',
-    title: 'RISC-V Out-of-Order Execution CPU',
-    description: 'Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.',
-    projectUrl: 'https://github.com/PaperL/RISC-V_CPU'
-  },
-  {
-    imageUrl: 'https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png',
-    title: 'Mx* Compiler',
-    description: 'Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.',
-    projectUrl: 'https://github.com/PaperL/Mxx-Compiler'
-  },
-  {
-    imageUrl: 'https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg',
-    title: 'Ray Tracer',
-    description: 'Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.',
-    projectUrl: 'https://github.com/PaperL/Toy_Ray_Tracer'
-  }
-];
-
-var projectsContainer = document.getElementById('projects-container');
-
-for (var i = 0; i < projects.length; i++) {
-  var project = projects[i];
-  var projectHTML = createProjectHTML(project.imageUrl, project.title, project.description, project.projectUrl);
-  projectsContainer.innerHTML += projectHTML;
-}
-</script>
