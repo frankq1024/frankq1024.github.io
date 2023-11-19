@@ -41,31 +41,31 @@ title: CV
 
 > Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
-<div style="display: flex; justify-content: left;">
-  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
     <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" />
   </div>
-  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
-    <strong href="https://github.com/PaperL/RISC-V_CPU" style="margin: 1em 0">RISC-V Out-of-Order Execution CPU</strong>
+  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+    <strong href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</strong>
     <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
   </div>
 </div>
 
-<div style="display: flex; justify-content: left;">
-  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
     <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" />
   </div>
-  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
+  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
     <strong href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</strong>
     <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
   </div>
 </div>
 
-<div style="display: flex; justify-content: left;">
-  <div class="col-4 col-lg-5" style="display: flex; justify-content: center; margin-right: 2em;">
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center; margin-right: 2em;">
     <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" />
   </div>
-  <div class="col-8 col-lg-7" style="display: flex; flex-direction: column; justify-content: left;">
+  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
     <strong href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</strong>
     <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
   </div>
