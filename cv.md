@@ -50,7 +50,7 @@ title: CV
 > Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
 [**RISC-V Out-of-Order Execution CPU**](https://github.com/PaperL/RISC-V_CPU)
-- Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.
+- Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.
 
 <div style="display: flex; justify-content: center;">
   <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
@@ -59,7 +59,7 @@ title: CV
 </div>
 
 [**Mx\* Compiler**](https://github.com/PaperL/Mxx-Compiler)
-- Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM Language Reference and RISC-V assembly (RV32M), written in Java.
+- Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.
 
 <div style="display: flex; justify-content: center;">
   <div class="col-8 col-lg-5" style="display: flex; justify-content: center;">
@@ -80,7 +80,7 @@ title: CV
 - Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
 
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
-- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas.
+- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
 
 # Experience
 ---
@@ -133,8 +133,8 @@ title: CV
   <p class="text-end">2020, 2021, 2022, 2023</p>
 </div>
 <div class="d-flex justify-content-between">
-  <p class="text-start">NOIP2017 Senior Group, Shanghai Area, First Prize</p>
-  <p class="text-end">2017</p>
+  <p class="text-start">NOIP Senior Group, Shanghai Area, First Prize</p>
+  <p class="text-end">2017, 2018</p>
 </div>
 
 # Skills
