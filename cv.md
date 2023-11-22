@@ -131,6 +131,10 @@ title: CV
   <p class="text-start">NOIP Senior Group, Shanghai Area, First Prize</p>
   <p class="text-end">2017, 2018</p>
 </div>
+<div class="d-flex justify-content-between">
+  <p class="text-start">Asia Open VEX Robotics Competition, VRC High School, First Prize & Excellence Award (Highest Award)</p>
+  <p class="text-end">2017</p>
+</div>
 
 # Skills
 ---
