@@ -59,14 +59,17 @@
 @media screen and (max-width: 992px) {
   #particles-js {
     height: 40vh !important;
+    min-width: 320px;
   }
 
   .jumbotron {
     height: 40vh !important;
+    min-width: 320px;
   }
 
   #particles-content {
     height: 40vh !important;
+    min-width: 320px;
   }
 }
 
