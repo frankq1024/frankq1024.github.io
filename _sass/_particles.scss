@@ -8,7 +8,7 @@
 
   .particles-js-canvas-el {
     width: 100%;
-    min-height: 25vh !important;
+    min-height: 17.5vh !important;
   }
 
   .jumbotron {
@@ -18,7 +18,7 @@
     // -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, 0%);
     pointer-events: none;
-    height: 25vh;
+    height: 17.5vh;
     min-height: 340px;
   }
 
@@ -29,7 +29,7 @@
 }
 
 .fullscreen {
-  min-height: 25vh;
+  min-height: 17.5vh;
 
   h1,
   h2 {
