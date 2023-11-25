@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<h1 style="font-family: var(--type-serif-cn);">仇天元</h1>
+<h1 style="font-family: var(--type-serif-cn); margin-top: 1em">仇天元</h1>
 
 > The pronunciation of my Chinese name is "Chyoh Tyen Ywen" (Qíu Tiān Yuán).
 

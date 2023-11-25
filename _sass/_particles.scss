@@ -1,5 +1,5 @@
 #particles-js {
-  min-height: 340px;
+  min-height: 280px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
 
   .particles-js-canvas-el {
     width: 100%;
-    min-height: 17.5vh !important;
+    min-height: 25vh !important;
   }
 
   .jumbotron {
@@ -18,18 +18,19 @@
     // -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, 0%);
     pointer-events: none;
-    height: 17.5vh;
-    min-height: 340px;
+    height: 25vh;
+    min-height: 280px;
   }
 
   #particles-content {
-    min-height: 300px;
+    height: 25vh;
+    min-height: 280px;
     text-align: center;
   }
 }
 
 .fullscreen {
-  min-height: 17.5vh;
+  min-height: 100vh;
 
   h1,
   h2 {
