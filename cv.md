@@ -15,26 +15,48 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div> -->
 
-# Publication
+# Experience
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start"><b>Diverse Image Harmonization</b></p>
-  <p class="text-end">Submitted</p>
+  <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
+  <p class="text-end">August 2023 - December 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://vincen.tl/">Prof. Vincent Liu</a></em></p>
+  <p class="text-end"><em>Philadelphia, Pennsylvania, US</em></p>
 </div>
 
-<div class="row justify-content-center align-content-center">
-  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" style="object-fit: contain;"/>
-  </div>
-  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
-    <span style="margin-bottom: 0.5em"><b><a href="https://paperl.github.io/Human-3D-Diffusion/" style="margin: 1em 0">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></span>
-    <span><i>Chaofan Lin, <b>Tianyuan Qiu</b>, Hanchong Yan, Muzi Tao</i></span>
-    <span>Accepted by ICIPMC 2023</span>
-  </div>
+- Investigated co-design of the FPGA-based SmartNIC and the host networking stack.
+- Leverage idle PCIe transactional bandwidth to mitigate host congestion.
+- Optimize tail latencies for high-level applications.
+
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://bcmi.sjtu.edu.cn/">BCMI</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">July 2022 - July 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://www.ustcnewly.com/">Prof. Li Niu</a></em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
 </div>
 
+- Proposed a deep learning network of image harmonization guided by reflectance.
+- Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances.
+- Enabled multiple plausible image harmonization results using the outputs from the generation network.
 
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">September 2021 - June 2023</p>
+</div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><em>Teaching Assistant</em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
+</div>
+
+- CS1953 Programming, Fall 2021
+- CS1952 Programming Practice, Summer 2022
+- CS2951 Computer Architecture, Fall 2022
+- CS2952 Operating System, Spring 2023
 
 # Selected Projects
 ---
@@ -77,44 +99,24 @@ title: CV
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
 - Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
 
-# Experience
+# Publication
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
-  <p class="text-end">August 2023 - December 2023</p>
-</div>
-<div class="d-flex justify-content-between">
-  <p class="text-start"><em>Research Assistant, advised by <a href="https://vincen.tl/">Prof. Vincent Liu</a></em></p>
-  <p class="text-end"><em>Philadelphia, Pennsylvania, US</em></p>
+  <p class="text-start"><b>Diverse Image Harmonization</b></p>
+  <p class="text-end">Submitted</p>
 </div>
 
-- Investigated co-design of the FPGA-based SmartNIC and the host networking stack to leverage idle PCIe transactional bandwidth to mitigate host congestion and optimize tail latencies for high-level applications.
-
-<div class="d-flex justify-content-between" style="margin-top:2em">
-  <p class="text-start"><b><a href="https://bcmi.sjtu.edu.cn/">BCMI</a>, Shanghai Jiao Tong University</b></p>
-  <p class="text-end">July 2022 - July 2023</p>
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <img src="https://raw.githubusercontent.com/PaperL/Human-3D-Diffusion/gh-pages/cover.png" style="object-fit: contain;"/>
+  </div>
+  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+    <span style="margin-bottom: 0.5em"><b><a href="https://paperl.github.io/Human-3D-Diffusion/" style="margin: 1em 0">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></span>
+    <span><i>Chaofan Lin, <b>Tianyuan Qiu</b>, Hanchong Yan, Muzi Tao</i></span>
+    <span>Accepted by ICIPMC 2023</span>
+  </div>
 </div>
-<div class="d-flex justify-content-between">
-  <p class="text-start"><em>Research Assistant, advised by <a href="https://www.ustcnewly.com/">Prof. Li Niu</a></em></p>
-  <p class="text-end"><em>Shanghai, China</em></p>
-</div>
-
-- Proposed a deep learning network of image harmonization guided by reflectance. Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances, thereby enabling the generation of multiple plausible harmonization results.
-
-<div class="d-flex justify-content-between" style="margin-top:2em">
-  <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
-  <p class="text-end">September 2021 - June 2023</p>
-</div>
-<div class="d-flex justify-content-between">
-  <p class="text-start"><em>Teaching Assistant</em></p>
-  <p class="text-end"><em>Shanghai, China</em></p>
-</div>
-
-- CS1953 Programming, Fall 2021
-- CS1952 Programming Practice, Summer 2022
-- CS2951 Computer Architecture, Fall 2022
-- CS2952 Operating System, Spring 2023
 
 # Awards
 ---
