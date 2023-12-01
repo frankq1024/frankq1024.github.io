@@ -54,7 +54,7 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\topmargin}{-0.6in}
 \addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
@@ -65,7 +65,7 @@
 
 % Sections formatting
 \titleformat{\section}
-{\vspace{0pt}\Large\bfseries\scshape\raggedright \fontfamily{pnc}\selectfont}
+{\vspace{8pt}\Large\bfseries\scshape\raggedright \fontfamily{pnc}\selectfont}
 {}{0em}{}[\color{gray}\titlerule \vspace{0pt}]
 
 % Ensure that generated pdf is machine readable/ATS parsable
@@ -115,7 +115,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{4pt}}
 
 \newcommand{\grayunderline}[1]{\setulcolor{lightgray}\setul{0.5ex}{0.1pt}\ul{#1}}
 
@@ -134,16 +134,16 @@
 % \fancyhead[R]{the top right header}
 
 \begin{center}
-    {\Huge \scshape \fontfamily{cmr}\selectfont\textbf{Tianyuan Qiu}} \\ \vspace{8pt}
+    {\Huge \scshape \fontfamily{cmr}\selectfont\textbf{Tianyuan Qiu}} \\ \vspace{14pt}
     \small
-    \href{tel:+8612312341234}{\raisebox{-0.1\height}\faPhone\ \grayunderline{+86 123-1234-1234}} ~
+    \href{tel:+8618116417218}{\raisebox{-0.1\height}\faPhone\ \grayunderline{+86 181-1641-7218}} ~
     \href{mailto:frank_qiu@sjtu.edu.cn}{\raisebox{-0.15\height}\faEnvelope\ \grayunderline{frankq1024@gmail.com}} ~
     \scalebox{0.93}{\raisebox{-0.05\height}\faEdit}\ Updated: November 2023 ~ \\
-    \vspace{5pt}
+    \vspace{4pt}
     \href{https://github.com/PaperL/}{\raisebox{-0.15\height}\faGithub\ \grayunderline{github.com/PaperL}} ~
     \href{https://www.linkedin.com/in/tianyuan-qiu/}{\raisebox{-0.15\height}\faLinkedin\ \grayunderline{linkedin.com/in/tianyuan-qiu}} ~
     \href{https://frankq1024.github.io/}{\raisebox{-0.15\height}\faHome\ \grayunderline{frankq1024.github.io}} ~
-    \vspace{-10pt}
+    \vspace{-6pt}
     
 \end{center}
 
@@ -169,14 +169,18 @@ My research interest lies in the fields of systems, networking, and machine lear
         {\href{https://dsl.cis.upenn.edu/}{\grayunderline{Distributed Systems Laboratory}}, University of Pennsylvania}{August 2023 -- December 2023}
         {Research Assistant, advised by \href{https://vincen.tl/}{\grayunderline{Prof. Vincent Liu}}}{Philadelphia, Pennsylvania, US}
         \resumeItemListStart
-            \resumeItem{Investigated co-design of the FPGA-based SmartNIC and the host networking stack to leverage idle PCIe transactional bandwidth to mitigate host congestion and optimize tail latencies for high-level applications.}
+            \resumeItem{Investigated co-design of the FPGA-based SmartNIC and the host networking stack.}
+            \resumeItem{Leverage idle PCIe transactional bandwidth to mitigate host congestion.}
+            \resumeItem{Optimize tail latencies for high-level applications.}
         \resumeItemListEnd
 
     \resumeSubheading
         {\href{https://bcmi.sjtu.edu.cn/}{\grayunderline{BCMI Laboratory}}, Shanghai Jiao Tong University}{July 2022 -- July 2023}
       {Research Assistant, advised by \href{https://www.ustcnewly.com/}{\grayunderline{Prof. Li Niu}}}{Shanghai, China}
         \resumeItemListStart
-            \resumeItem{Proposed a deep learning network of image harmonization guided by reflectance. Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances, thereby enabling the generation of multiple plausible harmonization results.}
+            \resumeItem{Proposed a deep learning network of image harmonization guided by reflectance.}
+            \resumeItem{Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances.}
+            \resumeItem{Enabled multiple plausible image harmonization results using the outputs from the generation network.}
         \resumeItemListEnd
 
     \resumeSubheading
@@ -195,6 +199,7 @@ My research interest lies in the fields of systems, networking, and machine lear
   
 
 %-----------PROJECTS-----------
+% \vspace{-25pt}
 \section{Selected Projects}
     \vspace{-3pt}
     \small\textcolor{gray}{\textit{(Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.)}}
@@ -204,7 +209,7 @@ My research interest lies in the fields of systems, networking, and machine lear
             {\href{https://github.com/PaperL/RISC-V_CPU}{\grayunderline{\textbf{RISC-V Out-of-Order Execution CPU}}}
             \enspace$|$\enspace\emph{CPU, FPGA, Verilog, RISC-V}}{Fall 2021}
             \resumeItemListStart
-                \resumeItem{Designed FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 Board.}
+                \resumeItem{Designed an FPGA circuit of a RISC-V (RV32I instruction set) out-of-order execution CPU of Tomasulo algorithm, written in Verilog, tested on AX7035 board.}
             \resumeItemListEnd
             \vspace{-10pt}
         \resumeProjectHeading
@@ -218,14 +223,15 @@ My research interest lies in the fields of systems, networking, and machine lear
             {\href{https://github.com/PaperL/Toy_Ray_Tracer}{\grayunderline{\textbf{Ray Tracer}}}
             \enspace$|$\enspace\emph{Ray Tracing, Rust}}{Summer 2021}
             \resumeItemListStart
-                \resumeItem{Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.}
+                \resumeItem{Developed a path tracing renderer featuring textures, BVH, PDF, and other optimizations, written in Rust.}
             \resumeItemListEnd
-            \vspace{-10pt}
+            % \vspace{-10pt}
+            \newpage
         \resumeProjectHeading
             {\href{https://github.com/PaperL/PTL}{\grayunderline{\textbf{PTL}}}
             \enspace$|$\enspace\emph{STL, C++}}{Spring 2021}
             \resumeItemListStart
-                \resumeItem{Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.}
+                \resumeItem{Developed a reimplementation of the C++ Standard Template Library with additional functions.}
             \resumeItemListEnd
             \vspace{-10pt}
         \resumeProjectHeading
@@ -242,8 +248,8 @@ My research interest lies in the fields of systems, networking, and machine lear
 \section{Publication}
     \resumeSubHeadingListStart
     \resumeSubheading
-        {Diverse Image Harmonization}{Submitted}
-        {, \textbf{Tianyuan Qiu}, , }{}
+        {Diverse Image Harmonization}{Submitted to CVPR 2024}
+        {Xinhao Tao, \textbf{Tianyuan Qiu}, Junyan Cao, Li Niu}{}
     \vspace{10pt}
     \resumeSubheading
         {\href{https://paperl.github.io/Human-3D-Diffusion/}{\grayunderline{DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model}}}{Accepted by ICIPMC 2023}
@@ -256,7 +262,7 @@ My research interest lies in the fields of systems, networking, and machine lear
 \section{Skills}
 \begin{itemize}[leftmargin=0in, label={}, itemsep=4pt]
 \small{
-    \item{\textbf{Programming: }{Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).}}
+    \item{\textbf{Programming: }{Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. Verilog), database (e.g. MongoDB), utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).}}
     \item{\textbf{Engineering: }{Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx's Vivado).}}
     \item{\textbf{Collaboration and Communication: }{Served as the Class Representative and a member of the Student Union, and the President of the VEX Robotics Club.}}
 }
@@ -271,6 +277,8 @@ My research interest lies in the fields of systems, networking, and machine lear
         \resumeProjectHeading{Zhiyuan Honors Scholarship}{2020, 2021, 2022, 2023}
         \vspace{-17pt}
         \resumeProjectHeading{National Olympiad in Informatics in Provinces, Senior Group, Shanghai Area, First Prize}{2017, 2018}
+        \vspace{-17pt}
+        \resumeProjectHeading{Asia Open VEX Robotics Competition, VRC High School, First Prize \& Excellence Award (Highest Award)}{2017}
     \resumeSubHeadingListEnd
 
 
