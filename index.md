@@ -36,9 +36,9 @@ I am an undergraduate student of [ACM Honors Class](https://acm.sjtu.edu.cn/), [
 
 Currently, I'm working as a research intern at [DSL](https://dsl.cis.upenn.edu/), [University of Pennsylvania](https://www.upenn.edu/), mentored by [Prof. Vincent Liu](https://vincen.tl/) and [Liangcheng Yu](https://liangchengyu.com/). We are doing research about FPGA-based SmartNIC.
 
-My research interest lies in the fields of systems, networking, and machine learning. In particular, I enjoy taking a bottom-up approach, from low level architecture and operating system all the way to the upper layer applications like Machine Learning. Recently, I'm working on improving network performance by offloading with FPGA-based SmartNICs.
+My research interest lies in the fields of **systems, networking, and machine learning**. I am particularly drawn to a bottom-up research approach, beginning from the behavior of hardware such as FPGA and PCIe to intermediate layers like operating system and compiler, and extending up to applications like machine learning. This holistic way of thinking about the systems would open the door to identifying performance gaps between different layers and making optimizations with inventive system designs. Along this line, I am broadly interested in various problems in emerging networking and machine learning systems, including SmartNIC, FPGA, and distributed inference of LLM. I am also open to various topics in the broader field of systems, from serverless to databases. Recently, I'm working on improving network performance by offloading with FPGA-based SmartNICs.
 
-> This page was updated in November 2023.
+> This page was updated in December 2023.
 
 <div class="invisible-space" style="height: 3em"></div>
 
@@ -48,9 +48,9 @@ My research interest lies in the fields of systems, networking, and machine lear
 
 # More than coding
 
-I've always been passionate about learning new knowledge, whether it's in the realm of science and engineering or in humanities and the arts. I especially like J-pop, font design, graphic design, animation, game as art, and different beverages.
+I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (.g. J-pop, symphony), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, cocktail).
 
-Here is a simple work written in Processing.
+Here is a simple work written in Processing many years ago.
 
 <div class="invisible-space" style="height: 15vh"></div>
 

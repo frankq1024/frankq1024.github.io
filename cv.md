@@ -114,7 +114,7 @@ title: CV
   <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
     <span style="margin-bottom: 0.5em"><b><a href="https://paperl.github.io/Human-3D-Diffusion/" style="margin: 1em 0">DiffAnnot: Improved Neural Annotator with Denoising Diffusion Model</a></b></span>
     <span><i>Chaofan Lin, <b>Tianyuan Qiu</b>, Hanchong Yan, Muzi Tao</i></span>
-    <span>Accepted by ICIPMC 2023</span>
+    <span>Accepted by ICIPMC 2023, but not published</span>
   </div>
 </div>
 
