@@ -48,7 +48,9 @@ My research interest lies in the fields of **systems, networking, and machine le
 
 # More than coding
 
-I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (.g. J-pop, symphony), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, cocktail).
+My life’s ambition is to make the world a better place.
+
+For my hobbies, I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (e.g. J-pop, symphony), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, cocktail).
 
 Here is a simple work written in Processing many years ago.
 
