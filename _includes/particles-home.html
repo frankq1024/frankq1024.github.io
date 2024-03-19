@@ -1,0 +1,50 @@
+<div id="particles-js" class="fullscreen" style="width: 100vw">
+  <div class="jumbotron">
+    <div id="particles-content" class="row justify-content-center align-content-center">
+      {% if site.photo %}
+      <div class="col-4 col-lg-2" style="display: flex; align-items: center;">
+        <img class="particles-photo" src="{{ site.photo }}" />
+      </div>
+      {% endif %}
+      <div class="col-12 col-lg-6">
+        <h1 class="particles-title">{{ site.title }}</h1>
+        <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+        <div class="nowrap">
+          {% if site.social.github %}
+          <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg
+            %}</a>
+          {% endif %}
+          {% if site.social.stackoverflow %}
+          <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">
+            {% include svg/stackoverflow.svg %}</a>
+          {% endif %}
+          {% if site.social.linkedin %}
+          <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">
+            {% include svg/linkedin.svg %}</a>
+          {% endif %}
+          {% if site.social.facebook %}
+          <a class="particles-icon" href="https://www.facebook.com/{{ site.social.facebook }}">
+            {% include svg/facebook.svg
+            %}</a>
+          {% endif %}
+          {% if site.social.twitter %}
+          <a class="particles-icon" href="https://twitter.com/{{ site.social.twitter }}">
+            {% include svg/twitter.svg %}</a>
+          {% endif %}
+          {% if site.social.instagram %}
+          <a class="particles-icon" href="https://www.instagram.com/{{ site.social.instagram }}">
+            {% include svg/instagram.svg %}</a>
+          {% endif %}
+          {% if site.social.email %}
+          <a class="particles-icon" href="mailto:{{ site.social.email }}">{% include svg/mail.svg %}</a>
+          {% endif %}
+          <a class="particles-icon" href="/attachments/cv/cv.pdf">{% include svg/cv-circled.svg %}</a>
+        </div>
+      </div>
+      <div class="col-4 col-lg-1"></div>
+    </div>
+  </div>
+  <!-- <div class="particles-scroll">
+    <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
+  </div> -->
+</div>
