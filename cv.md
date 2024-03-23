@@ -15,36 +15,6 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div> -->
 
-# Experience
----
-
-<div class="d-flex justify-content-between">
-  <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
-  <p class="text-end">August 2023 - December 2023</p>
-</div>
-<div class="d-flex justify-content-between">
-  <p class="text-start"><em>Research Assistant, advised by <a href="https://vincen.tl/">Prof. Vincent Liu</a></em></p>
-  <p class="text-end"><em>Philadelphia, Pennsylvania, US</em></p>
-</div>
-
-- Investigated co-design of the FPGA-based SmartNIC and the host networking stack.
-- Leverage idle PCIe transactional bandwidth to mitigate host congestion.
-- Optimize tail latencies for high-level applications.
-
-<div class="d-flex justify-content-between" style="margin-top:2em">
-  <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
-  <p class="text-end">September 2021 - June 2023</p>
-</div>
-<div class="d-flex justify-content-between">
-  <p class="text-start"><em>Teaching Assistant</em></p>
-  <p class="text-end"><em>Shanghai, China</em></p>
-</div>
-
-- CS1953 Programming, Fall 2021
-- CS1952 Programming Practice, Summer 2022
-- CS2951 Computer Architecture, Fall 2022
-- CS2952 Operating System, Spring 2023
-
 # Selected Projects
 ---
 
@@ -86,25 +56,48 @@ title: CV
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
 - Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
 
-# Awards
+# Experience
 ---
 
 <div class="d-flex justify-content-between">
-  <p class="text-start">SJTU Merit Scholarship</p>
-  <p class="text-end">2021, 2022</p>
+  <p class="text-start"><b><a href="https://dsl.cis.upenn.edu/">DSL</a>, University of Pennsylvania</b></p>
+  <p class="text-end">August 2023 - December 2023</p>
 </div>
 <div class="d-flex justify-content-between">
-  <p class="text-start">Zhiyuan Honors Scholarship</p>
-  <p class="text-end">2020, 2021, 2022, 2023</p>
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://vincen.tl/">Prof. Vincent Liu</a></em></p>
+  <p class="text-end"><em>Philadelphia, Pennsylvania, US</em></p>
+</div>
+
+- Investigated co-design of the FPGA-based SmartNIC and the host networking stack.
+- Leverage idle PCIe transactional bandwidth to mitigate host congestion.
+- Optimize tail latencies for high-level applications.
+
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://bcmi.sjtu.edu.cn/">BCMI</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">July 2022 - July 2023</p>
 </div>
 <div class="d-flex justify-content-between">
-  <p class="text-start">NOIP Senior Group, Shanghai Area, First Prize</p>
-  <p class="text-end">2017, 2018</p>
+  <p class="text-start"><em>Research Assistant, advised by <a href="https://www.ustcnewly.com/">Prof. Li Niu</a></em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
+</div>
+
+- Proposed a deep learning network of image harmonization guided by reflectance.
+- Designed a diverse reflectance generation network to predict a variety of plausible foreground reflectances.
+- Enabled multiple plausible image harmonization results using the outputs from the generation network.
+
+<div class="d-flex justify-content-between" style="margin-top:2em">
+  <p class="text-start"><b><a href="https://en.zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, Shanghai Jiao Tong University</b></p>
+  <p class="text-end">September 2021 - June 2023</p>
 </div>
 <div class="d-flex justify-content-between">
-  <p class="text-start">Asia Open VEX Robotics Competition, VRC High School, First Prize & Excellence Award (Highest Award)</p>
-  <p class="text-end">2017</p>
+  <p class="text-start"><em>Teaching Assistant</em></p>
+  <p class="text-end"><em>Shanghai, China</em></p>
 </div>
+
+- CS1953 Programming, Fall 2021
+- CS1952 Programming Practice, Summer 2022
+- CS2951 Computer Architecture, Fall 2022
+- CS2952 Operating System, Spring 2023
 
 # Skills
 ---
