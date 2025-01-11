@@ -6,6 +6,7 @@ body {
   font-variant-numeric: var(--type-numeric);
   background-color: var(--color-background);
   color: var(--color-text);
+  text-rendering: optimizeLegibility;
 }
 
 svg circle,
