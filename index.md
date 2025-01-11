@@ -5,7 +5,7 @@ title: Home
 
 <h1 style="font-family: var(--type-serif-cn); margin-top: 1em">仇天元</h1>
 
-> The pronunciation of my Chinese name is "Chyoh Tyen Ywen" (Qíu Tiān Yuán).
+> The pronunciation of my Chinese name is "Chyoh Tyen Ywen" (Mandarin Pinyin: Qíu Tiān Yuán).
 
 <style>
   .no-padding-here {
@@ -24,16 +24,21 @@ title: Home
         <div class="col-auto">
             E-mail<br><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
         </div>
+        <div class="col-auto">
+            Resume<br><a href="/attachments/resume.pdf">PDF</a>
+        </div>
     </div>
 </div>
 
 # About Me
 
-I am an undergraduate student at the [ACM Honors Class](https://acm.sjtu.edu.cn/) of [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), majoring in Computer Science and Technology. I will be a PhD student in [Purdue University](https://www.purdue.edu/) [Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) department, mentored by [Prof. Xiaoqi Chen](https://engineering.purdue.edu/~xiaoqic/).
+I am currently a Ph.D. student in [ECE](https://engineering.purdue.edu/ECE) ([PurNET Lab](https://purnet-lab.gitlab.io/)) at [Purdue University](https://www.purdue.edu/), advised by [Prof. Xiaoqi Chen](https://engineering.purdue.edu/~xiaoqic/), with a focus on research in computer networking systems.
 
-My research interest lies in the fields of **systems and networking**. I am particularly drawn to a bottom-up research approach, beginning from the behavior of hardware such as FPGA and PCIe to intermediate layers like operating system, and extending up to applications. This holistic way of thinking about the systems would open the door to identifying performance gaps between different layers and making optimizations with inventive system designs. Along this line, I am broadly interested in various problems in emerging networking and systems, including SmartNIC, FPGA. I am also open to various topics in the broader field of systems, from serverless to databases. Recently, I'm working on improving network performance by offloading with FPGA-based SmartNICs.
+My research interests span **systems, networking, and machine learning**. I am particularly drawn to a bottom-up research approach that starts from the behavior of hardware components such as FPGAs and PCIe, extends through intermediate layers like operating systems and compilers, and reaches applications like machine learning. This holistic perspective enables me to identify performance gaps between layers and explore optimizations through innovative system design. My work broadly covers emerging challenges in networking and machine learning system, including FPGA-based SmartNIC, GPU, and distributed training of LLM. I am also open to exploring a range of topics in the broader systems field, from serverless to database.
 
-> This page was updated in February 2024.
+I earned my Bachelor's degree in CS (Zhiyuan Honors Program) from the [ACM Class](https://acm.sjtu.edu.cn/), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). During my undergraduate, I interned as a research assistant of [DSL](https://dsl.cis.upenn.edu/) at the [University of Pennsylvania](https://www.upenn.edu/), where I was mentored by [Prof. Vincent Liu](https://vincen.tl/) and [Ph.D. Liangcheng Yu](https://liangchengyu.com/). Our research focused on FPGA-based SmartNICs and PCIe systems. Prior to that, I completed an internship as a research assistant in the field of computer vision under [Prof. Li Niu](https://www.ustcnewly.com/), working on diverse image harmonization.
+
+> This page was updated in January 2025.
 
 <div class="invisible-space" style="height: 3em"></div>
 
@@ -43,9 +48,11 @@ My research interest lies in the fields of **systems and networking**. I am part
 
 # More than coding
 
-My life’s ambition is to make the world a better place.
+My life’s ambition is to make the world a better place with more humanistic care.
 
-For my hobbies, I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (e.g. J-pop, symphony), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, cocktail).
+For my hobbies, I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (e.g. J-pop, J-rock), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, whiskey, cocktail, coffee).
+
+Since arriving in Indiana, I have chances to engage more in some localized hobbies, like karting, snowboarding, and figure skating! And I'm quite looking forward to a road trip around the entire country!
 
 Here is a simple work written in Processing many years ago.
 

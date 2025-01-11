@@ -18,7 +18,7 @@ title: CV
 # Selected Projects
 ---
 
-> Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
+> Some bachelor period course projects. Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
@@ -102,6 +102,8 @@ title: CV
 # Skills
 ---
 
-- **Programming**: Proficient in algorithm, data structure, modern programming language features (e.g. C/C++, Python, Java, Rust), HDL (e.g. System Verilog), Database (e.g. MongoDB); Utility programs (e.g. MATLAB, Visual Basic, Unity, Processing).
+- **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (*Vivado*).
 
-- **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (e.g. Xilinx’s Vivado).
+- **Programming**: Proficient in algorithm, data structure, modern programming language features (*e.g. C/C++, Rust, Python, Java*), HDL (*Verilog*), database (*MongoDB*), utility programs (*e.g. MATLAB, Visual Basic, Unity, Processing*).
+
+- **Administration**: Served as the class representative and public relation officer of Zhiyuan honors college student union.

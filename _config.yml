@@ -1,8 +1,8 @@
 # site settings
 
-title: Tianyuan Qiu
-description: Tianyuan Qiu's Homepage
-taglong: Computer Science B.E. Student @ SJTU
+title: Frank Qiu
+description: Frank Qiu's Homepage
+taglong: CE Ph.D. Student @ Purdue ECE
 tagshort: Blog
 url: https://frankq1024.github.io
 baseurl: ""
@@ -12,7 +12,7 @@ repo: https://github.com/frankq1024/frankq1024.github.io
 # author settings
 
 author:
-  name: Tianyuan Qiu
+  name: Frank Qiu
   email: frankq1024@gmail.com
 photo: /attachments/images/photo.jpg
 
