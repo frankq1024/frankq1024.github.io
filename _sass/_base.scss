@@ -41,6 +41,11 @@ small {
   font-weight: 300;
 }
 
+sc {
+  font-family: var(--type-caps);
+  letter-spacing: .1em;
+}
+
 abbr {
   text-transform: lowercase;
   font-family: var(--type-caps);

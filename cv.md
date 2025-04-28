@@ -59,11 +59,11 @@ title: CV
 
 [**PTL**](https://github.com/PaperL/PTL)
 
-- Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
+Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
 
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
 
-- Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
+Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
 
 # Experience
 

@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<h1 style="font-family: var(--type-serif-cn); margin-top: 1em">仇天元</h1>
+<h1 style="font-family: var(--type-serif-cn); margin-top: 0em">仇天元</h1>
 
 > The pronunciation of my Chinese name is "Chyoh Tyen Ywen" (Mandarin Pinyin: Qíu Tiān Yuán).
 
@@ -16,19 +16,19 @@ title: Home
 <div class="container no-padding-here" style="padding-left: 0em; padding-right: 0em; margin-top: 2em">
     <div class="row justify-content-between align-items-center no-padding-here">
         <div class="col-auto">
-            GitHub<br>
+            <sc>GitHub</sc><br>
             <a href="https://github.com/{{ site.social.github }}">{{ site.social.github }}</a>
         </div>
         <div class="col-auto">
-            LinkedIn<br>
+            <sc>LinkedIn</sc><br>
             <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
         </div>
         <div class="col-auto">
-            E-mail<br>
+            <sc>E-mail</sc><br>
             <a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
         </div>
         <div class="col-auto">
-            Resume<br>
+            <sc>Resume</sc><br>
             <a href="/attachments/resume.pdf" target="_blank">PDF</a>
         </div>
     </div>
