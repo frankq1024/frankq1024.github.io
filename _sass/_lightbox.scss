@@ -1,5 +1,5 @@
 .glightbox-clean {
-  .gslide-description {
+  .gslide-inner {
     background-color: var(--color-background);
     color: var(--color-text);
     font-size: var(--type-size);
@@ -8,7 +8,7 @@
 
   .gslide-title {
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: 500;
     font-family: var(--type-caps);
     color: var(--color-heading);
     letter-spacing: 0.1em;
@@ -16,8 +16,9 @@
     margin-bottom: 0.8em;
   }
 
-  .gslide-description {
+  .gslide-desc {
     font-size: 1em;
+    font-weight: 400;
     font-family: var(--type-serif);
     color: var(--color-text);
     margin-top: 0;
