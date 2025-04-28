@@ -113,8 +113,8 @@ Implemented A program for reading, parsing, converting, and performing model che
 
 ---
 
-- <sc>Engineering</sc>: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (*Vivado*).
+- <p><sc>Engineering</sc>: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (*Vivado*).</p>
 
-- <sc>Programming</sc>: Proficient in algorithm, data structure, modern programming language features (*e.g. C/C++, Rust, Python, Java*), HDL (*Verilog*), database (*MongoDB*), utility programs (*e.g. MATLAB, Visual Basic, Unity, Processing*).
+- <p><sc>Programming</sc>: Proficient in algorithm, data structure, modern programming language features (*e.g. C/C++, Rust, Python, Java*), HDL (*Verilog*), database (*MongoDB*), utility programs (*e.g. MATLAB, Visual Basic, Unity, Processing*).</p>
 
-- <sc>Administration</sc>: Served as the class representative and public relation officer of Zhiyuan honors college student union.
+- <p><sc>Administration</sc>: Served as the class representative and public relation officer of Zhiyuan honors college student union.</p>
