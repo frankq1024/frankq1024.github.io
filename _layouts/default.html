@@ -23,6 +23,30 @@
   <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   {% endif %}
+  
+  <script src="{{ '/assets/js/glightbox.min.js' | relative_url }}" defer></script>
+  <script defer>
+    document.addEventListener('DOMContentLoaded', function() {
+      GLightbox({
+        descPosition: 'bottom',
+        cssEfects: {
+          fade: { in: 'fadeIn', out: 'fadeOut', duration: 0.2 }
+        }
+      });
+      document.head.insertAdjacentHTML('beforeend',
+        '<style>\
+        .glightbox-container .gslide-description {\
+          background: var(--color-background);\
+          color: var(--color-text);\
+        }\
+        .glightbox-container .gslide-title h3 {\
+          font-weight: 500;\
+          color: var(--color-heading);\
+        }\
+        </style>'
+      );
+    });
+  </script>
 </body>
 
 </html>

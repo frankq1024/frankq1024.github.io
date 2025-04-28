@@ -23,9 +23,11 @@ title: CV
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" style="object-fit: contain;"/>
+    <a href="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: <h3>RISC-V Out-of-Order Execution CPU</h3>; description: Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.">
+      <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" style="object-fit: contain;"/>
+    </a>
   </div>
-  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
     <span style="margin-bottom: 0.5em"><b><a href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</a></b></span>
     <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
   </div>
@@ -33,9 +35,11 @@ title: CV
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" style="object-fit: contain;"/>
+    <a href="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: <h3>Mx* Compiler</h3>; description: Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.">
+      <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" style="object-fit: contain;"/>
+    </a>
   </div>
-  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
     <span style="margin-bottom: 0.5em"><b><a href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</a></b></span>
     <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
   </div>
@@ -43,9 +47,11 @@ title: CV
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
+    <a href="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" class="glightbox" data-gallery="projects" data-glightbox="title: <h3>Ray Tracer</h3>; description: Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.">
+      <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
+    </a>
   </div>
-  <div class="col-12 col-lg-7" style="display: flex; flex-direction: column; justify-content: left; margin: 1em 0em 1em 1.5em;">
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
     <span style="margin-bottom: 0.5em"><b><a href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</a></b></span>
     <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
   </div>
