@@ -1,20 +1,34 @@
-// Custom GLightbox styles
-
-.glightbox-container {
+.glightbox-clean {
   .gslide-description {
-    background: var(--color-background);
+    background-color: var(--color-background);
     color: var(--color-text);
     font-size: var(--type-size);
     font-family: var(--type-serif);
   }
 
-  .gslide-title h4 {
+  .gslide-title {
+    font-size: 1.25em;
     font-weight: bold;
-    color: var(--color-heading);
     font-family: var(--type-caps);
+    color: var(--color-heading);
     letter-spacing: 0.1em;
     margin-top: 0;
     margin-bottom: 0.8em;
-    font-size: 1.25em;
+  }
+
+  .gslide-description {
+    font-size: 1em;
+    font-family: var(--type-serif);
+    color: var(--color-text);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+a.glightbox {
+
+  &:focus,
+  &:hover {
+    border-bottom: none;
   }
 }
