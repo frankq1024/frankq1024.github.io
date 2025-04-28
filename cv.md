@@ -16,6 +16,7 @@ title: CV
 </div> -->
 
 # Selected Projects
+
 ---
 
 > Some bachelor period course projects. Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
@@ -51,12 +52,15 @@ title: CV
 </div>
 
 [**PTL**](https://github.com/PaperL/PTL)
+
 - Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
 
 [**LTL Model Checking**](https://github.com/PaperL/LTL_Model_Checking_Project)
+
 - Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
 
 # Experience
+
 ---
 
 <div class="d-flex justify-content-between">
@@ -100,6 +104,7 @@ title: CV
 - CS2952 Operating System, Spring 2023
 
 # Skills
+
 ---
 
 - **Engineering**: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (*Vivado*).

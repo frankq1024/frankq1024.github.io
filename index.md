@@ -16,16 +16,20 @@ title: Home
 <div class="container no-padding-here" style="padding-left: 0em; padding-right: 0em; margin-top: 2em">
     <div class="row justify-content-between align-items-center no-padding-here">
         <div class="col-auto">
-            GitHub<br><a href="https://github.com/{{ site.social.github }}">{{ site.social.github }}</a>
+            GitHub<br>
+            <a href="https://github.com/{{ site.social.github }}">{{ site.social.github }}</a>
         </div>
         <div class="col-auto">
-            LinkedIn<br><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
+            LinkedIn<br>
+            <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{{ site.social.linkedin }}</a>
         </div>
         <div class="col-auto">
-            E-mail<br><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
+            E-mail<br>
+            <a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a>
         </div>
         <div class="col-auto">
-            Resume<br><a href="/attachments/resume.pdf">PDF</a>
+            Resume<br>
+            <a href="/attachments/resume.pdf" target="_blank">PDF</a>
         </div>
     </div>
 </div>
@@ -48,7 +52,7 @@ I earned my Bachelor's degree in CS (Zhiyuan Honors Program) from the [ACM Class
 
 # More than coding
 
-My life’s ambition is to make the world a better place with more humanistic care.
+My life's ambition is to make the world a better place with more humanistic care.
 
 For my hobbies, I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (e.g. J-pop, J-rock), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, whiskey, cocktail, coffee).
 

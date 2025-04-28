@@ -2,11 +2,13 @@
   <div class="jumbotron">
     <div id="particles-content" class="row justify-content-center align-content-center">
       {% if site.photo %}
-      <div class="col-4 col-lg-2" style="display: flex; align-items: center;">
-        <img class="particles-photo" src="{{ site.photo }}" />
+      <div class="col-8 col-lg-3" style="display: flex; align-items: center;">
+        <a href="{{ site.url }}">
+          <img class="particles-photo" src="{{ site.photo }}" />
+        </a>
       </div>
       {% endif %}
-      <div class="col-12 col-lg-6">
+      <div class="col-12 col-lg-5">
         <h1 class="particles-title">{{ site.title }}</h1>
         <h1 class="particles-subtitle">{{ site.taglong }}</h1>
         <div class="nowrap">
@@ -38,10 +40,10 @@
           {% if site.social.email %}
           <a class="particles-icon" href="mailto:{{ site.social.email }}">{% include svg/mail.svg %}</a>
           {% endif %}
-          <a class="particles-icon" href="/attachments/resume.pdf">{% include svg/page.svg %}</a>
+          <a class="particles-icon" href="/attachments/resume.pdf" target="_blank">{% include svg/page.svg %}</a>
         </div>
       </div>
-      <div class="col-4 col-lg-1"></div>
+      <div class="col-1 col-lg-1"></div>
     </div>
   </div>
   <!-- <div class="particles-scroll">
