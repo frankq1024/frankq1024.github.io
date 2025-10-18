@@ -42,7 +42,7 @@ My research interests span **systems, networking, and machine learning**. I am p
 
 I earned my Bachelor's degree in CS (Zhiyuan Honors Program) from the [ACM Class](https://acm.sjtu.edu.cn/), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). During my undergraduate, I interned as a research assistant of [DSL](https://dsl.cis.upenn.edu/) at the [University of Pennsylvania](https://www.upenn.edu/), where I was mentored by [Prof. Vincent Liu](https://vincen.tl/) and [Ph.D. Liangcheng Yu](https://liangchengyu.com/). Our research focused on FPGA-based SmartNICs and PCIe systems. Prior to that, I completed an internship as a research assistant in the field of computer vision under [Prof. Li Niu](https://www.ustcnewly.com/), working on diverse image harmonization.
 
-> This page was updated in January 2025.
+> Resume is updated in January 2025, and this page will be updated for my PhD research.
 
 <div class="invisible-space" style="height: 3em"></div>
 
@@ -58,23 +58,21 @@ I've always been passionate about learning various things from science and engin
 
 Since I came from the southern part of China to here in Indiana, I found that I really enjoy winter sports like snowboarding and figure skating. My favorite activity now is taking road trips. I’ve already driven 18,000 miles in my first year, and I’m looking forward to a trip around the US!
 
-Here’s my photo in the Upper Peninsula of Michigan, Oct 2025:
+<div class="invisible-space" style="height: 1.5vh"></div>
 
-<div class="invisible-space" style="height: 2vh"></div>
-
-<a href="attachments/images/photo2.jpg" class="glightbox" data-gallery="photos" data-glightbox="description: Taken at Fish Cove on the Keweenaw Peninsula.">
+<a href="attachments/images/photo2.jpg" class="glightbox" data-gallery="photos" data-glightbox="description: Taken at Fish Cove on the Keweenaw Peninsula, Michigan, Oct 2025.">
   <img src="attachments/images/photo2.jpg" style="object-fit: contain;"/>
 </a>
 
 <div class="invisible-space" style="height: 4vh"></div>
 
-This is a simple work written in Processing many years ago:
+Here is an interesting work written in Processing many years ago:
 
 <div class="invisible-space" style="height: 15vh"></div>
 
 <div id="bulkyContainer" style="position: relative; width: 100vw; height: 10vh; left: 50%; transform: translateX(-50%);">
   <div id="clickToLoad" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer;">
-    Click to Load
+    <a href="javascript:void(0)">Click to Load</a>
   </div>
   <div id="iframeContainer" style="display: none;">
     <iframe id="iframe" src="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
