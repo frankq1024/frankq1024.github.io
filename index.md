@@ -54,11 +54,19 @@ I earned my Bachelor's degree in CS (Zhiyuan Honors Program) from the [ACM Class
 
 My life's ambition is to make the world a better place with more humanistic care.
 
-For my hobbies, I've always been passionate about learning new knowledge from science and engineering to humanities and arts, and different cultures all around the world. I especially like music (e.g. J-pop, J-rock), graphic design (e.g. poster, font), animation, game as art, and different beverages (e.g. soda, whiskey, cocktail, coffee).
+I've always been passionate about learning various things from science and engineering to humanities and arts, and different cultures all around the world. I have tons of different hobbies like music (especially J-pop/J-rock), karting, animation, different beverages from soft drinks to hard drinks, graphic design including font design, video game as art, and so on.
 
-Since arriving in Indiana, I have chances to engage more in some localized hobbies, like karting, snowboarding, and figure skating! And I'm quite looking forward to a road trip around the entire country!
+Since I came from the southern part of China to here in Indiana, I found that I really enjoy winter sports like snowboarding and figure skating. My favorite activity now is taking road trips. I’ve already driven 18,000 miles in my first year, and I’m looking forward to a trip around the US!
 
-Here is a simple work written in Processing many years ago.
+Here’s my photo in the Upper Peninsula of Michigan, Oct 2025:
+
+<div class="invisible-space" style="height: 2vh"></div>
+
+<img src="attachments/images/photo2.jpg" style="object-fit: contain;"/>
+
+<div class="invisible-space" style="height: 4vh"></div>
+
+This is a simple work written in Processing many years ago:
 
 <div class="invisible-space" style="height: 15vh"></div>
 
