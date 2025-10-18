@@ -47,7 +47,7 @@ title: CV
 
 <div class="row justify-content-center align-content-center">
   <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <a href="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" class="glightbox" data-gallery="projects" data-glightbox="title: Ray Tracer; description: Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.">
+    <a href="https://github.com/PaperL/Toy_Ray_Tracer/releases/download/v0.5.4/Final.jpg" class="glightbox" data-gallery="projects" data-glightbox="title: Ray Tracer; description: Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.">
       <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
     </a>
   </div>

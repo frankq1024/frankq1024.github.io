@@ -62,7 +62,9 @@ Here’s my photo in the Upper Peninsula of Michigan, Oct 2025:
 
 <div class="invisible-space" style="height: 2vh"></div>
 
-<img src="attachments/images/photo2.jpg" style="object-fit: contain;"/>
+<a href="attachments/images/photo2.jpg" class="glightbox" data-gallery="photos" data-glightbox="description: Taken at Fish Cove on the Keweenaw Peninsula.">
+  <img src="attachments/images/photo2.jpg" style="object-fit: contain;"/>
+</a>
 
 <div class="invisible-space" style="height: 4vh"></div>
 
