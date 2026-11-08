@@ -24,6 +24,15 @@ title: CV
   <p class="text-end">Manuscript in Preparation</p>
 </div>
 
+<div class="row justify-content-center">
+  <div class="col-10 col-lg-7 d-flex flex-column align-items-center" style="margin-bottom: 1em;">
+    <a href="attachments/images/trimmable.png" class="glightbox" data-gallery="research">
+      <img src="attachments/images/trimmable.png" style="object-fit: contain;"/>
+    </a>
+    <span style="font-size: 0.8em; opacity: 0.6; margin-top: 0.4em;">Click an image to enlarge (applies to all images below).</span>
+  </div>
+</div>
+
 - Co-designed a trimmable transport and gradient codec to reduce collective completion time by avoiding retransmission delays: switches trim packets under congestion, while the GPU codec distributes gradient information across packets to enable graceful reconstruction from retained prefixes.
 - Built a full-stack prototype on a physical 400 Gbps, 8×H100 testbed with a Tofino2 switch, spanning RoCEv2 via ibverbs, a BlueField-3 DPU dual receive path (ConnectX-7 & DPA), CUDA kernels with GPUDirect RDMA, and a PyTorch DDP hook.
 - In scale-out htsim simulations with congestion from background jobs, kept communication slowdown within 2%, while RoCE, DCTCP, and EQDS degraded significantly.
