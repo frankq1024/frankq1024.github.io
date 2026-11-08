@@ -15,55 +15,19 @@ title: CV
   <p class="text-end"><em>Shanghai, China</em></p>
 </div> -->
 
-# Selected Projects
+# Current Research
 
 ---
 
-> Some bachelor period course projects. Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
-
-<div class="row justify-content-center align-content-center">
-  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <a href="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: RISC-V Out-of-Order Execution CPU; description: Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.">
-      <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" style="object-fit: contain;"/>
-    </a>
-  </div>
-  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
-    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</a></sc></span>
-    <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
-  </div>
+<div class="d-flex justify-content-between">
+  <p class="text-start"><b>Trimmable Transport for Distributed ML Training</b></p>
+  <p class="text-end">Manuscript in Preparation</p>
 </div>
 
-<div class="row justify-content-center align-content-center">
-  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <a href="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: Mx* Compiler; description: Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.">
-      <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" style="object-fit: contain;"/>
-    </a>
-  </div>
-  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
-    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</a></sc></span>
-    <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
-  </div>
-</div>
-
-<div class="row justify-content-center align-content-center">
-  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
-    <a href="https://github.com/PaperL/Toy_Ray_Tracer/releases/download/v0.5.4/Final.jpg" class="glightbox" data-gallery="projects" data-glightbox="title: Ray Tracer; description: Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.">
-      <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
-    </a>
-  </div>
-  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
-    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</a></sc></span>
-    <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
-  </div>
-</div>
-
-[<sc>PTL</sc>](https://github.com/PaperL/PTL)
-
-Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
-
-[<sc>LTL Model Checking</sc>](https://github.com/PaperL/LTL_Model_Checking_Project)
-
-Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
+- Co-designed a trimmable transport and gradient codec to reduce collective completion time by avoiding retransmission delays: switches trim packets under congestion, while the GPU codec distributes gradient information across packets to enable graceful reconstruction from retained prefixes.
+- Built a full-stack prototype on a physical 400 Gbps, 8×H100 testbed with a Tofino2 switch, spanning RoCEv2 via ibverbs, a BlueField-3 DPU dual receive path (ConnectX-7 & DPA), CUDA kernels with GPUDirect RDMA, and a PyTorch DDP hook.
+- In scale-out htsim simulations with congestion from background jobs, kept communication slowdown within 2%, while RoCE, DCTCP, and EQDS degraded significantly.
+- Pre-trained and fine-tuned diverse models, including LLM, MoE, VLM, and JEPA models; the pipelined, high-throughput implementation matches the end-to-end iteration time of NCCL and UCCL while staying robust to congestion.
 
 # Experience
 
@@ -109,12 +73,62 @@ Implemented A program for reading, parsing, converting, and performing model che
 - CS2951 Computer Architecture, Fall 2022
 - CS2952 Operating System, Spring 2023
 
+# Undergraduate Projects
+
+---
+
+> Course projects from my undergraduate studies. Each project listed was crafted solely by myself and from scratch. Several projects include third-party libraries.
+
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <a href="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: RISC-V Out-of-Order Execution CPU; description: Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.">
+      <img src="https://raw.githubusercontent.com/PaperL/RISC-V_CPU/main/assets/Diagram.png" style="object-fit: contain;"/>
+    </a>
+  </div>
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
+    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/RISC-V_CPU">RISC-V Out-of-Order Execution CPU</a></sc></span>
+    <span>Designed FPGA circuit of a RISC-V (RV32I) out-of-order execution CPU of Tomasulo algorithm, written in Verilog.</span>
+  </div>
+</div>
+
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <a href="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" class="glightbox" data-gallery="projects" data-glightbox="title: Mx* Compiler; description: Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.">
+      <img src="https://raw.githubusercontent.com/PaperL/Mxx-Compiler/main/assets/Diagram.png" style="object-fit: contain;"/>
+    </a>
+  </div>
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
+    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/Mxx-Compiler" style="margin: 1em 0">Mx* Compiler</a></sc></span>
+    <span>Engineered a compiler that compiles a C-and-Java-like language Mx* to LLVM IR and RISC-V assembly (RV32M), written in Java.</span>
+  </div>
+</div>
+
+<div class="row justify-content-center align-content-center">
+  <div class="col-8 col-lg-4" style="display: flex; justify-content: center;">
+    <a href="https://github.com/PaperL/Toy_Ray_Tracer/releases/download/v0.5.4/Final.jpg" class="glightbox" data-gallery="projects" data-glightbox="title: Ray Tracer; description: Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.">
+      <img src="https://raw.githubusercontent.com/PaperL/Toy_Ray_Tracer/master/raytracer/output/preview.jpg" style="object-fit: contain;"/>
+    </a>
+  </div>
+  <div class="col-12 col-lg-7 d-flex flex-column justify-content-start ms-0 ms-lg-3" style="margin-top: 1em; margin-bottom: 1em;">
+    <span style="margin-bottom: 0.5em"><sc><a href="https://github.com/PaperL/Toy_Ray_Tracer" style="margin: 1em 0">Ray Tracer</a></sc></span>
+    <span>Developed a path tracing renderer, incorporating features such as textures, BVH, PDF, and various other optimizations, written in Rust.</span>
+  </div>
+</div>
+
+[<sc>PTL</sc>](https://github.com/PaperL/PTL)
+
+Developed a reimplementation of basic part of C++ Standard Library with additional functions, written in C++.
+
+[<sc>LTL Model Checking</sc>](https://github.com/PaperL/LTL_Model_Checking_Project)
+
+Implemented A program for reading, parsing, converting, and performing model checking of linear temporal logic formulas, written in Java.
+
 # Skills
 
 ---
 
-- <p><sc>Engineering</sc>: Exceptional code style, document writing, and version control. Proficient in both Windows and Linux environments. Experienced with industry toolchains and documentation (*Vivado*).</p>
+- <p><sc>Engineering</sc>: Programmable network hardware (Intel Tofino2, NVIDIA BlueField-3 DOCA &amp; DPA); host networking (RDMA ibverbs/RoCEv2, DPDK); GPU systems (CUDA, GPUDirect RDMA, GPUNetIO, NCCL, UCCL); distributed training (PyTorch); network and ML-training simulators (htsim, SimAI); end-to-end testbed bring-up and performance measurement.</p>
 
-- <p><sc>Programming</sc>: Proficient in algorithm, data structure, modern programming language features (*e.g. C/C++, Rust, Python, Java*), HDL (*Verilog*), database (*MongoDB*), utility programs (*e.g. MATLAB, Visual Basic, Unity, Processing*).</p>
+- <p><sc>Programming</sc>: C/C++, Python, Rust, Java, Verilog, etc.; algorithms and data structures.</p>
 
-- <p><sc>Administration</sc>: Served as the class representative and public relation officer of Zhiyuan honors college student union.</p>
+- <p><sc>Awards</sc>: Won First Prize in the National Olympiad in Informatics in Provinces (NOIP, Senior Division, Shanghai) in 2017 and 2018.</p>

@@ -36,13 +36,15 @@ title: Home
 
 # About Me
 
-I am currently a Ph.D. student in [ECE](https://engineering.purdue.edu/ECE) ([PurNET Lab](https://purnet-lab.gitlab.io/)) at [Purdue University](https://www.purdue.edu/), advised by [Prof. Xiaoqi Chen](https://engineering.purdue.edu/~xiaoqic/), with a focus on research in computer networking systems.
+I am currently a Ph.D. student in Computer Engineering in the [School of ECE](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu/) ([PurNET Lab](https://purnet-lab.gitlab.io/)), advised by [Prof. Xiaoqi Chen](https://engineering.purdue.edu/~xiaoqic/), with a focus on research in computer networking systems.
 
-My research interests span **systems, networking, and machine learning**. I am particularly drawn to a bottom-up research approach that starts from the behavior of hardware components such as FPGAs and PCIe, extends through intermediate layers like operating systems and compilers, and reaches applications like machine learning. This holistic perspective enables me to identify performance gaps between layers and explore optimizations through innovative system design. My work broadly covers emerging challenges in networking and machine learning system, including FPGA-based SmartNIC, GPU, and distributed training of LLM. I am also open to exploring a range of topics in the broader systems field, from serverless to database.
+My research spans **networking systems and machine learning systems**. I enjoy a bottom-up approach — co-designing programmable network hardware (switches, SmartNICs/DPUs) with ML systems, from data-plane protocols up to collective communication and distributed training. Currently I am building *trimmable transport* for distributed ML training: switches trim gradient packets under congestion instead of dropping them, and a GPU-side codec lets receivers reconstruct gradients from the retained prefixes without retransmission.
+
+**I am looking for research internship opportunities** in datacenter networking and ML infrastructure.
 
 I earned my Bachelor's degree in CS (Zhiyuan Honors Program) from the [ACM Class](https://acm.sjtu.edu.cn/), [Zhiyuan College](https://en.zhiyuan.sjtu.edu.cn/), at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). During my undergraduate, I interned as a research assistant of [DSL](https://dsl.cis.upenn.edu/) at the [University of Pennsylvania](https://www.upenn.edu/), where I was mentored by [Prof. Vincent Liu](https://vincen.tl/) and [Ph.D. Liangcheng Yu](https://liangchengyu.com/). Our research focused on FPGA-based SmartNICs and PCIe systems. Prior to that, I completed an internship as a research assistant in the field of computer vision under [Prof. Li Niu](https://www.ustcnewly.com/), working on diverse image harmonization.
 
-> Resume is updated in January 2025, and this page will be updated for my PhD research.
+> Resume is updated in November 2026.
 
 <div class="invisible-space" style="height: 3em"></div>
 
@@ -56,7 +58,7 @@ My life's ambition is to make the world a better place with more humanistic care
 
 I've always been passionate about learning various things from science and engineering to humanities and arts, and different cultures all around the world. I have tons of different hobbies like music (especially J-pop/J-rock), karting, animation, different beverages from soft drinks to hard drinks, graphic design including font design, video game as art, and so on.
 
-Since I came from the southern part of China to here in Indiana, I found that I really enjoy winter sports like snowboarding and figure skating. My favorite activity now is taking road trips. I’ve already driven 18,000 miles in my first year, and I’m looking forward to a trip around the US!
+Since I came from the southern part of China to here in Indiana, I found that I really enjoy winter sports like snowboarding and figure skating, as well as kayaking and fishing in the warmer months. My favorite activity now is taking road trips. I’ve already driven 18,000 miles in my first year, and I’m looking forward to a trip around the US!
 
 <div class="invisible-space" style="height: 1.5vh"></div>
 
